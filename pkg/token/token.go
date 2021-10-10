@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path"
+	"strings"
 )
 
 type Token struct {
@@ -36,14 +37,19 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
+	// for no case sensitivity
+	for s := range symbolMap {
+		symbolMap[strings.ToLower(s)] = symbolMap[s]
+	}
 	addressMap = map[string]*Token{}
 	for s := range symbolMap {
 		addressMap[symbolMap[s].Address] = symbolMap[s]
 	}
 }
 
+// GetTokenMetaBySymbol no case sensitivity, USD/usd/Usd are all fine
 func GetTokenMetaBySymbol(symbol string) *Token {
-	return symbolMap[symbol]
+	return symbolMap[strings.ToLower(symbol)]
 }
 
 func GetTokenMetaByAddress(address string) *Token {
