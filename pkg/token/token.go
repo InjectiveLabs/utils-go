@@ -3,6 +3,7 @@ package token
 import (
 	_ "embed"
 	"encoding/json"
+	log "github.com/xlab/suplog"
 	"strings"
 )
 
@@ -34,6 +35,7 @@ func init() {
 	for s := range symbolMap {
 		addressMap[symbolMap[s].Address] = symbolMap[s]
 	}
+	log.Infof("successfully loaded token meta config\n")
 }
 
 // GetTokenMetaBySymbol no case sensitivity, USD/usd/Usd are all fine
@@ -42,5 +44,8 @@ func GetTokenMetaBySymbol(symbol string) *Token {
 }
 
 func GetTokenMetaByAddress(address string) *Token {
+	if strings.HasPrefix(address, "peggy") {
+		address = address[5:]
+	}
 	return symbolMap[address]
 }
