@@ -47,5 +47,5 @@ func GetTokenMetaByAddress(address string) *Token {
 	if strings.HasPrefix(address, "peggy") {
 		address = address[5:]
 	}
-	return symbolMap[address]
+	return addressMap[address]
 }
