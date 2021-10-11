@@ -1,12 +1,15 @@
 package token
 
 import (
+	_ "embed"
 	"encoding/json"
-	"io/ioutil"
-	"os"
-	"path"
 	"strings"
 )
+
+// this path has to be hardcoded, no other ways
+//go:generate cp ../../lib/token-meta/meta/token_meta.json ./token_meta.json
+//go:embed token_meta.json
+var tokenMetaFileContent []byte
 
 type Token struct {
 	Name        string `json:"name"`
@@ -18,22 +21,8 @@ type Token struct {
 var symbolMap map[string]*Token
 var addressMap map[string]*Token
 
-const tokenMetaFilePath = "lib/token-meta/meta"
-const tokenMetaFileName = "token_meta.json"
-
 func init() {
-	// load token meta from submodule
-	file, err := os.Open(path.Join(tokenMetaFilePath, tokenMetaFileName))
-	if err != nil {
-		panic(err)
-	}
-	defer func(f *os.File) { _ = f.Close() }(file)
-	fileContent, err := ioutil.ReadAll(file)
-	if err != nil {
-		panic(err)
-	}
-	symbolMap = map[string]*Token{}
-	err = json.Unmarshal(fileContent, &symbolMap)
+	err := json.Unmarshal(tokenMetaFileContent, &symbolMap)
 	if err != nil {
 		panic(err)
 	}
