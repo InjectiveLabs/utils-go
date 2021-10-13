@@ -27,11 +27,12 @@ func init() {
 		panic(err)
 	}
 	// for no case sensitivity
+	symbolMap = make(map[string]*Token, len(tokenMap))
 	for s := range tokenMap {
 		symbolMap[strings.ToLower(s)] = tokenMap[s]
 	}
 	// addresses in json file have no prefix "peggy"
-	addressMap = map[string]*Token{}
+	addressMap = make(map[string]*Token, len(tokenMap))
 	for s := range tokenMap {
 		addressMap[tokenMap[s].Address] = tokenMap[s]
 	}
