@@ -3,6 +3,7 @@ package token
 import (
 	_ "embed"
 	"encoding/json"
+	"github.com/ethereum/go-ethereum/common"
 	log "github.com/xlab/suplog"
 	"strings"
 )
@@ -12,37 +13,37 @@ import (
 //go:embed token_meta.json
 var tokenMetaFileContent []byte
 
-type Token struct {
-	Name        string `json:"name"`
-	Symbol      string `json:"symbol"`
-	Address     string `json:"address"`
-	CoinGeckoId string `json:"coinGeckoId"`
+type EthereumAddress struct {
+	common.Address
 }
 
 var symbolMap map[string]*Token
 var addressMap map[string]*Token
 
 func init() {
-	err := json.Unmarshal(tokenMetaFileContent, &symbolMap)
+	var tokenMap Dict
+	err := json.Unmarshal(tokenMetaFileContent, &tokenMap)
 	if err != nil {
 		panic(err)
 	}
 	// for no case sensitivity
-	for s := range symbolMap {
-		symbolMap[strings.ToLower(s)] = symbolMap[s]
+	for s := range tokenMap {
+		symbolMap[strings.ToLower(s)] = tokenMap[s]
 	}
+	// addresses in json file have no prefix "peggy"
 	addressMap = map[string]*Token{}
-	for s := range symbolMap {
-		addressMap[symbolMap[s].Address] = symbolMap[s]
+	for s := range tokenMap {
+		addressMap[tokenMap[s].Address] = tokenMap[s]
 	}
 	log.Infof("successfully loaded token meta config\n")
 }
 
-// GetTokenMetaBySymbol no case sensitivity, USD/usd/Usd are all fine
-func GetTokenMetaBySymbol(symbol string) *Token {
+// GetTokenBySymbol no case sensitivity, USD/usd/Usd are all fine
+func GetTokenBySymbol(symbol string) *Token {
 	return symbolMap[strings.ToLower(symbol)]
 }
 
-func GetTokenMetaByAddress(address string) *Token {
+// GetTokenByAddress will trim prefix "peggy"
+func GetTokenByAddress(address string) *Token {
 	return addressMap[strings.TrimPrefix(address, "peggy")]
 }
