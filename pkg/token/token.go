@@ -31,10 +31,10 @@ func init() {
 	for s := range tokenMap {
 		symbolMap[strings.ToLower(s)] = tokenMap[s]
 	}
-	// addresses in json file have no prefix "peggy"
+	// for no case sensitivity, and addresses in json file have no prefix "peggy"
 	addressMap = make(map[string]*Token, len(tokenMap))
 	for s := range tokenMap {
-		addressMap[tokenMap[s].Address] = tokenMap[s]
+		addressMap[strings.ToLower(tokenMap[s].Address)] = tokenMap[s]
 	}
 	log.Infof("successfully loaded token meta config\n")
 }
@@ -44,7 +44,7 @@ func GetTokenBySymbol(symbol string) *Token {
 	return symbolMap[strings.ToLower(symbol)]
 }
 
-// GetTokenByAddress will trim prefix "peggy"
+// GetTokenByAddress no case sensitivity, and it's safe to pass address with prefix "peggy"
 func GetTokenByAddress(address string) *Token {
-	return addressMap[strings.TrimPrefix(address, "peggy")]
+	return addressMap[strings.ToLower(strings.TrimPrefix(address, "peggy"))]
 }
