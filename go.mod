@@ -1,9 +1,10 @@
-module utils-go
+module github.com/InjectiveLabs/utils-go
 
 go 1.17
 
 require (
 	github.com/ethereum/go-ethereum v1.10.10
+	github.com/pkg/errors v0.9.1
 	github.com/xlab/suplog v1.3.1
 )
 
@@ -16,7 +17,6 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/xlab/closer v0.0.0-20190328110542-03326addb7c2 // indirect
 	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
