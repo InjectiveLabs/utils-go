@@ -1,11 +1,13 @@
 package token
 
 import (
+	"context"
 	_ "embed"
 	"encoding/json"
 	"github.com/ethereum/go-ethereum/common"
 	log "github.com/xlab/suplog"
 	"strings"
+	"time"
 )
 
 // this path has to be hardcoded, no other ways
@@ -45,6 +47,20 @@ func GetTokenBySymbol(symbol string) *Token {
 }
 
 // GetTokenByAddress no case sensitivity, and it's safe to pass address with prefix "peggy"
+// for unknown address, request metadata from alchemy
 func GetTokenByAddress(address string) *Token {
-	return addressMap[strings.ToLower(strings.TrimPrefix(address, "peggy"))]
+	address = strings.ToLower(strings.TrimPrefix(address, "peggy"))
+	token, ok := addressMap[address]
+	if !ok || token == nil {
+		log.Warningf("cannot find address [%s] static token meta, will request from alchemy", address)
+		ctx, cancelFn := context.WithTimeout(context.Background(), time.Second*10)
+		defer cancelFn()
+		tokenMeta, err := getTokenMetaByAddress(ctx, address)
+		if err != nil {
+			log.WithError(err).Errorf("failed to get token meta from alchemy with address [%s]", address)
+			return nil
+		}
+		token = &Token{Address: address, Meta: tokenMeta}
+	}
+	return token
 }
