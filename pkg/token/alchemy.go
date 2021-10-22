@@ -40,7 +40,7 @@ func randID() int {
 
 const alchemyEndpoint = "https://eth-mainnet.alchemyapi.io/v2/vSqxSDsS7fSB0VNQfWC1r0yVq5QCTy_n"
 
-func getTokenMetaByAddress(ctx context.Context, address string) (*Meta, error) {
+func getTokenMetaFromAlchemyByAddress(ctx context.Context, address string) (*Meta, error) {
 	reqBody := &AlchemyRequest{
 		JsonRPC: "2.0",
 		Method:  "alchemy_getTokenMetadata",

@@ -51,16 +51,15 @@ func GetTokenBySymbol(symbol string) *Token {
 func GetTokenByAddress(address string) *Token {
 	address = strings.ToLower(strings.TrimPrefix(address, "peggy"))
 	token, ok := addressMap[address]
-	if !ok || token == nil {
-		log.Warningf("cannot find address [%s] static token meta, will request from alchemy", address)
-		ctx, cancelFn := context.WithTimeout(context.Background(), time.Second*10)
-		defer cancelFn()
-		tokenMeta, err := getTokenMetaByAddress(ctx, address)
-		if err != nil {
-			log.WithError(err).Errorf("failed to get token meta from alchemy with address [%s]", address)
-			return nil
-		}
-		token = &Token{Address: address, Meta: tokenMeta}
+	if ok && token != nil {
+		return token
 	}
-	return token
+	// token not exist in address map, search from alchemy
+	ctx, cancelFn := context.WithTimeout(context.Background(), time.Second*10)
+	defer cancelFn()
+	tokenMeta, err := getTokenMetaFromAlchemyByAddress(ctx, address)
+	if err == nil && tokenMeta != nil {
+		return &Token{Address: address, Meta: tokenMeta}
+	}
+	return nil
 }
