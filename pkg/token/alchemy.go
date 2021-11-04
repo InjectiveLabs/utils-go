@@ -38,8 +38,6 @@ func randID() int {
 	return int(1 + rand.Int63n(100000000))
 }
 
-const alchemyEndpoint = "https://eth-mainnet.alchemyapi.io/v2/vSqxSDsS7fSB0VNQfWC1r0yVq5QCTy_n"
-
 func getTokenMetaFromAlchemyByAddress(ctx context.Context, address string) (*Meta, error) {
 	reqBody := &AlchemyRequest{
 		JsonRPC: "2.0",
