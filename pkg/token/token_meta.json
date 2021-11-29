@@ -1,0 +1,442 @@
+{
+  "1INCH": {
+    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "coinGeckoId": "1inch",
+    "meta": {
+      "name": "1inch",
+      "symbol": "1INCH",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/8104.png"
+    }
+  },
+  "AAVE": {
+    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "coinGeckoId": "aave",
+    "meta": {
+      "name": "Aave",
+      "symbol": "AAVE",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/7278.png"
+    }
+  },
+  "AXS": {
+    "address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+    "coinGeckoId": "axie-infinity",
+    "meta": {
+      "name": "Axie Infinity",
+      "symbol": "AXS",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/6783.png"
+    }
+  },
+  "BAT": {
+    "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+    "coinGeckoId": "basic-attention-token",
+    "meta": {
+      "name": "Basic Attention Token",
+      "symbol": "BAT",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/1697.png"
+    }
+  },
+  "BNB": {
+    "address": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+    "coinGeckoId": "binancecoin",
+    "meta": {
+      "name": "Binance Coin",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/1839.png"
+    }
+  },
+  "BTC": {
+    "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "coinGeckoId": "bitcoin",
+    "meta": {
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logo": "https://static.alchemyapi.io/images/assets/3717.png"
+    }
+  },
+  "BUSD": {
+    "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+    "coinGeckoId": "binance-usd",
+    "meta": {
+      "name": "Binance USD",
+      "symbol": "BUSD",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/4687.png"
+    }
+  },
+  "CEL": {
+    "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
+    "coinGeckoId": "celsius-degree-token",
+    "meta": {
+      "name": "Celsius",
+      "symbol": "CEL",
+      "decimals": 4,
+      "logo": "https://static.alchemyapi.io/images/assets/2700.png"
+    }
+  },
+  "CELL": {
+    "address": "0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099",
+    "coinGeckoId": "cellframe",
+    "meta": {
+      "name": "Cellframe",
+      "symbol": "CELL",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/8992.png"
+    }
+  },
+  "CHZ": {
+    "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+    "coinGeckoId": "chiliz",
+    "meta": {
+      "name": "Chiliz",
+      "symbol": "CHZ",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/4066.png"
+    }
+  },
+  "COMP": {
+    "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "coinGeckoId": "compound-governance-token",
+    "meta": {
+      "name": "Compound",
+      "symbol": "COMP",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/5692.png"
+    }
+  },
+  "DAI": {
+    "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "coinGeckoId": "dai",
+    "meta": {
+      "name": "Dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/4943.png"
+    }
+  },
+  "DEFI5": {
+    "address": "0xfa6de2697d59e88ed7fc4dfe5a33dac43565ea41",
+    "coinGeckoId": "defi-top-5-tokens-index",
+    "meta": {
+      "name": "DEFI Top 5 Tokens Index",
+      "symbol": "DEFI5",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/8430.png"
+    }
+  },
+  "ENJ": {
+    "address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
+    "coinGeckoId": "enjincoin",
+    "meta": {
+      "name": "Enjin Coin",
+      "symbol": "ENJ",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/2130.png"
+    }
+  },
+  "ETH": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "coinGeckoId": "ethereum",
+    "meta": {
+      "name": "WETH",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/2396.png"
+    }
+  },
+  "EVAI": {
+    "address": "0x50f09629d0afdf40398a3f317cc676ca9132055c",
+    "coinGeckoId": "evai",
+    "meta": {
+      "name": "Evai.io",
+      "symbol": "EVAI",
+      "decimals": 8,
+      "logo": "https://static.alchemyapi.io/images/assets/9805.png"
+    }
+  },
+  "FTM": {
+    "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
+    "coinGeckoId": "fantom",
+    "meta": {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/3513.png"
+    }
+  },
+  "GRT": {
+    "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+    "coinGeckoId": "the-graph",
+    "meta": {
+      "name": "The Graph",
+      "symbol": "GRT",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/6719.png"
+    }
+  },
+  "HT": {
+    "address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161",
+    "coinGeckoId": "huobi-token",
+    "meta": {
+      "name": "Huobi Token",
+      "symbol": "HT",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/2502.png"
+    }
+  },
+  "INJ": {
+    "address": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+    "coinGeckoId": "injective-protocol",
+    "meta": {
+      "name": "Injective Protocol",
+      "symbol": "INJ",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/7226.png"
+    }
+  },
+  "LINK": {
+    "address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+    "coinGeckoId": "chainlink",
+    "meta": {
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/1975.png"
+    }
+  },
+  "MATIC": {
+    "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+    "coinGeckoId": "matic-network",
+    "meta": {
+      "name": "Polygon",
+      "symbol": "MATIC",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/3890.png"
+    }
+  },
+  "NEXO": {
+    "address": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
+    "coinGeckoId": "nexo",
+    "meta": {
+      "name": "Nexo",
+      "symbol": "NEXO",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/2694.png"
+    }
+  },
+  "NOIA": {
+    "address": "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca",
+    "coinGeckoId": "noia-network",
+    "meta": {
+      "name": "Syntropy",
+      "symbol": "NOIA",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/4191.png"
+    }
+  },
+  "OCEAN": {
+    "address": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+    "coinGeckoId": "ocean-protocol",
+    "meta": {
+      "name": "Ocean Protocol",
+      "symbol": "OCEAN",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/3911.png"
+    }
+  },
+  "PAXG": {
+    "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+    "coinGeckoId": "pax-gold",
+    "meta": {
+      "name": "PAX Gold",
+      "symbol": "PAXG",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/4705.png"
+    }
+  },
+  "POOL": {
+    "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
+    "coinGeckoId": "pooltogether",
+    "meta": {
+      "name": "PoolTogether",
+      "symbol": "POOL",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/8508.png"
+    }
+  },
+  "QNT": {
+    "address": "0x4a220e6096b25eadb88358cb44068a3248254675",
+    "coinGeckoId": "quant-network",
+    "meta": {
+      "name": "Quant",
+      "symbol": "QNT",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/3155.png"
+    }
+  },
+  "RUNE": {
+    "address": "0x3155BA85D5F96b2d030a4966AF206230e46849cb",
+    "coinGeckoId": "thorchain-erc20",
+    "meta": {
+      "name": "THORChain (ERC20)",
+      "symbol": "RUNE",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/8272.png"
+    }
+  },
+  "SHIB": {
+    "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+    "coinGeckoId": "shiba-inu",
+    "meta": {
+      "name": "SHIBA INU",
+      "symbol": "SHIB",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/5994.png"
+    }
+  },
+  "SNX": {
+    "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+    "coinGeckoId": "havven",
+    "meta": {
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/2586.png"
+    }
+  },
+  "STARS": {
+    "address": "0xc55c2175e90a46602fd42e931f62b3acc1a013ca",
+    "coinGeckoId": "mogul-productions",
+    "meta": {
+      "name": "Mogul Productions",
+      "symbol": "STARS",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/8996.png"
+    }
+  },
+  "STT": {
+    "address": "0xaC9Bb427953aC7FDDC562ADcA86CF42D988047Fd",
+    "coinGeckoId": "scatter-cx",
+    "meta": {
+      "name": "Scatter.cx",
+      "symbol": "STT",
+      "decimals": 18,
+      "logo": ""
+    }
+  },
+  "SUSHI": {
+    "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+    "coinGeckoId": "sushi",
+    "meta": {
+      "name": "SushiSwap",
+      "symbol": "SUSHI",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/6758.png"
+    }
+  },
+  "SWAP": {
+    "address": "0xcc4304a31d09258b0029ea7fe63d032f52e44efe",
+    "coinGeckoId": "trustswap",
+    "meta": {
+      "name": "TrustSwap",
+      "symbol": "SWAP",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/5829.png"
+    }
+  },
+  "UMA": {
+    "address": "0x04fa0d235c4abf4bcf4787af4cf447de572ef828",
+    "coinGeckoId": "uma",
+    "meta": {
+      "name": "UMA",
+      "symbol": "UMA",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/5617.png"
+    }
+  },
+  "UNI": {
+    "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "coinGeckoId": "uniswap",
+    "meta": {
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/7083.png"
+    }
+  },
+  "USDC": {
+    "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "coinGeckoId": "usd-coin",
+    "meta": {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logo": "https://static.alchemyapi.io/images/assets/3408.png"
+    }
+  },
+  "USDT": {
+    "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "coinGeckoId": "tether",
+    "meta": {
+      "name": "Tether",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logo": "https://static.alchemyapi.io/images/assets/825.png"
+    }
+  },
+  "UTK": {
+    "address": "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c",
+    "coinGeckoId": "utrust",
+    "meta": {
+      "name": "Utrust",
+      "symbol": "UTK",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/2320.png"
+    }
+  },
+  "WBTC": {
+    "address": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "coinGeckoId": "bitcoin",
+    "meta": {
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logo": "https://static.alchemyapi.io/images/assets/3717.png"
+    }
+  },
+  "WETH": {
+    "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "coinGeckoId": "ethereum",
+    "meta": {
+      "name": "WETH",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/2396.png"
+    }
+  },
+  "YFI": {
+    "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+    "coinGeckoId": "yearn-finance",
+    "meta": {
+      "name": "yearn.finance",
+      "symbol": "YFI",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/5864.png"
+    }
+  },
+  "ZRX": {
+    "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+    "coinGeckoId": "0x",
+    "meta": {
+      "name": "0x",
+      "symbol": "ZRX",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/1896.png"
+    }
+  }
+}
