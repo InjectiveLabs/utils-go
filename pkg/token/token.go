@@ -12,8 +12,6 @@ import (
 	"time"
 )
 
-// this path has to be hardcoded, no other ways
-//go:generate cp ../../lib/token-meta/meta/token_meta.json ./token_meta.json
 //go:embed token_meta.json
 var tokenMetaFileContent []byte
 
@@ -25,6 +23,8 @@ var symbolMapLock sync.RWMutex
 var symbolMap map[string]*Token
 var addressMapLock sync.RWMutex
 var addressMap map[string]*Token
+var denomMapLock sync.RWMutex
+var denomMap map[string]*Token
 
 const alchemyEndpoint = "https://eth-mainnet.alchemyapi.io/v2/%s"
 const alchemyAPIKeyEnvVar = "ALCHEMY_API_KEY"
@@ -38,20 +38,25 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	// for no case sensitivity
+	// no case sensitivity
 	symbolMapLock.Lock()
+	addressMapLock.Lock()
+	denomMapLock.Lock()
 	symbolMap = make(map[string]*Token, len(tokenMap))
-	for s := range tokenMap {
-		symbolMap[strings.ToLower(s)] = tokenMap[s]
+	addressMap = make(map[string]*Token, len(tokenMap))
+	denomMap = make(map[string]*Token, len(tokenMap))
+	for s, token := range tokenMap {
+		if token == nil || s == "" {
+			log.Warningf("got invalid token metadata, symbol: [%s]", s)
+			continue
+		}
+		symbolMap[strings.ToLower(s)] = token
+		addressMap[strings.ToLower(token.Address)] = token
+		denomMap[strings.ToLower(token.Denom)] = token
 	}
 	symbolMapLock.Unlock()
-	// for no case sensitivity, and addresses in json file have no prefix "peggy"
-	addressMapLock.Lock()
-	addressMap = make(map[string]*Token, len(tokenMap))
-	for s := range tokenMap {
-		addressMap[strings.ToLower(tokenMap[s].Address)] = tokenMap[s]
-	}
 	addressMapLock.Unlock()
+	denomMapLock.Unlock()
 	log.Infof("successfully loaded token meta config\n")
 }
 
@@ -87,4 +92,11 @@ func GetTokenByAddress(address string) *Token {
 		return &Token{Address: address, Meta: tokenMeta}
 	}
 	return nil
+}
+
+// GetTokenByDenom no case sensitivity
+func GetTokenByDenom(denom string) *Token {
+	denomMapLock.RLock()
+	defer denomMapLock.RUnlock()
+	return denomMap[strings.ToLower(denom)]
 }

@@ -1,3 +1,0 @@
-[submodule "lib/token-meta"]
-	path = lib/token-meta
-	url = git@github.com:InjectiveLabs/injective-token-meta.git
