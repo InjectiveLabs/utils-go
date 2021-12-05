@@ -169,6 +169,16 @@
       "logo": "https://static.alchemyapi.io/images/assets/3513.png"
     }
   },
+  "GF": {
+    "address": "0xaaef88cea01475125522e117bfe45cf32044e238",
+    "coinGeckoId": "guildfi",
+    "meta": {
+      "name": "GuildFi Token",
+      "symbol": "GF",
+      "decimals": 18,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/15585.png"
+    }
+  },
   "GRT": {
     "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
     "coinGeckoId": "the-graph",
