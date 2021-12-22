@@ -272,6 +272,18 @@
       "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4172.png"
     }
   },
+  "OSMO": {
+    "address": "",
+    "coinGeckoId": "osmosis",
+    "denom": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Osmosis",
+      "symbol": "OSMO",
+      "decimals": 6,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/12220.png"
+    }
+  },
   "MATIC": {
     "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
     "coinGeckoId": "matic-network",
