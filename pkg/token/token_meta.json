@@ -275,7 +275,7 @@
   "OSMO": {
     "address": "",
     "coinGeckoId": "osmosis",
-    "denom": "ibc/646315E3B0461F5FA4C5C8968A88FC45D4D5D04A45B98F1B8294DD82F386DD85",
+    "denom": "ibc/92E0120F15D037353CFB73C14651FC8930ADC05B93100FD7754D3A689E53B333",
     "metaSource": "custom",
     "meta": {
       "name": "Osmosis",
