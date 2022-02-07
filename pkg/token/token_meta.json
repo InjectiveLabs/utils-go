@@ -34,6 +34,18 @@
       "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png"
     }
   },
+  "AXL": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "ibc/C49B72C4E85AE5361C3E0F0587B24F509CB16ECEB8970B6F917D697036AF49BE",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Axelar",
+      "symbol": "AXL",
+      "decimals": 6,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/17799.png"
+    }
+  },
   "AXS": {
     "address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
     "coinGeckoId": "axie-infinity",
@@ -225,6 +237,18 @@
       "logo": "https://static.alchemyapi.io/images/assets/6719.png"
     }
   },
+  "HUAHUA": {
+    "address": "",
+    "coinGeckoId": "chihuahua-token",
+    "denom": "ibc/E7807A46C0B7B44B350DA58F51F278881B863EC4DCA94635DAB39E52C30766CB",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Chihuahua",
+      "symbol": "HUAHUA",
+      "decimals": 6,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/17208.png"
+    }
+  },
   "HT": {
     "address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161",
     "coinGeckoId": "huobi-token",
@@ -272,18 +296,6 @@
       "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4172.png"
     }
   },
-  "OSMO": {
-    "address": "",
-    "coinGeckoId": "osmosis",
-    "denom": "ibc/92E0120F15D037353CFB73C14651FC8930ADC05B93100FD7754D3A689E53B333",
-    "metaSource": "custom",
-    "meta": {
-      "name": "Osmosis",
-      "symbol": "OSMO",
-      "decimals": 6,
-      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/12220.png"
-    }
-  },
   "MATIC": {
     "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
     "coinGeckoId": "matic-network",
@@ -329,6 +341,18 @@
       "logo": "https://static.alchemyapi.io/images/assets/3911.png"
     }
   },
+  "OSMO": {
+    "address": "",
+    "coinGeckoId": "osmosis",
+    "denom": "ibc/92E0120F15D037353CFB73C14651FC8930ADC05B93100FD7754D3A689E53B333",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Osmosis",
+      "symbol": "OSMO",
+      "decimals": 6,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/12220.png"
+    }
+  },
   "PAXG": {
     "address": "0x45804880de22913dafe09f4980848ece6ecbaf78",
     "coinGeckoId": "pax-gold",
@@ -372,6 +396,18 @@
       "symbol": "RUNE",
       "decimals": 18,
       "logo": "https://static.alchemyapi.io/images/assets/8272.png"
+    }
+  },
+  "SCRT": {
+    "address": "",
+    "coinGeckoId": "secret",
+    "denom": "ibc/3C38B741DF7CD6CAC484343A4994CFC74BC002D1840AAFD5416D9DAC61E37F10",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Secret",
+      "symbol": "SCRT",
+      "decimals": 6,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/5604.png"
     }
   },
   "SHIB": {
