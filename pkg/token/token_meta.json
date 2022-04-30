@@ -203,6 +203,17 @@
       "logo": "https://static.alchemyapi.io/images/assets/9805.png"
     }
   },
+  "EVMOS": {
+    "coinGeckoId": "evmos",
+    "denom": "ibc/16618B7F7AC551F48C057A13F4CA5503693FBFF507719A85BC6876B8BD75F821",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Evmos",
+      "symbol": "EVMOS",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/24023/large/logo-orange.png?1651223278"
+    }
+  },
   "FTM": {
     "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
     "coinGeckoId": "fantom",
