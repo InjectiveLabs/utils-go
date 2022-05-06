@@ -583,6 +583,18 @@
       "logo": "https://static.alchemyapi.io/images/assets/2396.png"
     }
   },
+  "XPRT": {
+    "address": "0xae837EacBAE2a6bA166ce0DEd5C72340f212835c",
+    "coinGeckoId": "persistence",
+    "denom": "ibc/a0cc0cf735bfb30e730c70019d4218a1244ff383503ff7579c9201ab93ca9293",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Persistence",
+      "symbol": "XPRT",
+      "decimals": 6,
+      "logo": "https://assets.coingecko.com/coins/images/14582/large/512_Light.png?1617149658"
+    }
+  },
   "YFI": {
     "address": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
     "coinGeckoId": "yearn-finance",
