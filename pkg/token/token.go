@@ -5,7 +5,7 @@ import (
 	_ "embed"
 	"encoding/json"
 	"github.com/ethereum/go-ethereum/common"
-	log "github.com/xlab/suplog"
+	log "github.com/InjectiveLabs/suplog"
 	"os"
 	"strings"
 	"sync"

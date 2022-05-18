@@ -1,7 +1,7 @@
 package main
 
 import (
-	log "github.com/xlab/suplog"
+	log "github.com/InjectiveLabs/suplog"
 	"strings"
 )
 

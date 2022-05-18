@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/bugsnag/bugsnag-go/errors"
-	log "github.com/xlab/suplog"
+	log "github.com/InjectiveLabs/suplog"
 	"io"
 	"math/rand"
 	"net/http"
