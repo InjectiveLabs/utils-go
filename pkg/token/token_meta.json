@@ -616,5 +616,16 @@
       "decimals": 18,
       "logo": "https://static.alchemyapi.io/images/assets/1896.png"
     }
+  },
+  "KINJ": {
+    "address": "0x87ab3b4c8661e07d6372361211b96ed4dc36b1b5",
+    "coinGeckoId": "injective-protocol",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "Injective Protocol",
+      "symbol": "KINJ",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/7226.png"
+    }
   }
 }
