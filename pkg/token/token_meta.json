@@ -627,5 +627,16 @@
       "decimals": 18,
       "logo": "https://static.alchemyapi.io/images/assets/7226.png"
     }
+  },
+  "DOT": {
+    "address": "",
+    "coinGeckoId": "polkadot",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "decimals": 10,
+      "logo": "https://assets.coingecko.com/coins/images/12171/large/polkadot.png?1639712644"
+    }
   }
 }
