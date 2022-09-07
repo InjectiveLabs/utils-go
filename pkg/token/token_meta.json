@@ -638,5 +638,16 @@
       "decimals": 10,
       "logo": "https://assets.coingecko.com/coins/images/12171/large/polkadot.png?1639712644"
     }
+  },
+  "STRD": {
+    "address": "",
+    "coinGeckoId": "stride",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Stride",
+      "symbol": "STRD",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
