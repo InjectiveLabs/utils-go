@@ -649,5 +649,77 @@
       "decimals": 6,
       "logo": ""
     }
+  }, 
+  "XBX": {
+    "address": "0x080b12e80c9b45e97c23b6ad10a16b3e2a123949",
+    "coinGeckoId": "x-blox",
+    "denom": "peggy0x080b12e80c9b45e97c23b6ad10a16b3e2a123949",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "X-BLOX",
+      "symbol": "XBX",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/26381/small/xblox-logo.png?1657678295"
+    }
+  },
+  "APE": {
+    "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+    "coinGeckoId": "apecoin",
+    "denom": "peggy0x4d224452801aced8b2f0aebe155379bb5d594381",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "ApeCoin",
+      "symbol": "APE",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/24383/small/apecoin.jpg?1647476455"
+    }
+  },
+  "DYDX": {
+    "address": "0x92d6c1e31e14520e676a687f0a93788b716beff5",
+    "coinGeckoId": "dydx",
+    "denom": "peggy0x92d6c1e31e14520e676a687f0a93788b716beff5",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "DyDx",
+      "symbol": "DYDX",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/17500/small/hjnIm9bV.jpg?1628009360"
+    }
+  },
+  "XAC": {
+    "address": "0xde4c5a791913838027a2185709e98c5c6027ea63",
+    "coinGeckoId": "",
+    "denom": "peggy0xde4c5a791913838027a2185709e98c5c6027ea63",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "XACToken",
+      "symbol": "XAC",
+      "decimals": 8,
+      "logo": "https://etherscan.io/token/images/amark_32.png"
+    }
+  },
+  "stETH": {
+    "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+    "coinGeckoId": "staked-ether",
+    "denom": "peggy0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+    "metaSource": "coingecko",
+    "meta": {
+      "name": "Lido Staked Ether",
+      "symbol": "steth",
+      "decimals": 18,
+      "logo": "https://etherscan.io/token/images/amark_32.png"
+    }
+  },
+  "LYM": {
+    "address": "0xc690f7c7fcffa6a82b79fab7508c466fefdfc8c5",
+    "coinGeckoId": "Lympo",
+    "denom": "peggy0xc690f7c7fcffa6a82b79fab7508c466fefdfc8c5",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "Lympo",
+      "symbol": "LYM",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/2620/small/lympo_token.png?1547036775"
+    }
   }
 }
