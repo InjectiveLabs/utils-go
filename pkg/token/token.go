@@ -7,6 +7,7 @@ import (
 	log "github.com/InjectiveLabs/suplog"
 	"github.com/ethereum/go-ethereum/common"
 	"os"
+	"os/signal"
 	"strings"
 	"sync"
 	"time"
@@ -107,29 +108,38 @@ func GetTokenByDenom(denom string) *Token {
 }
 
 func cacheCleaner() {
-	ticker := time.NewTicker(cacheRefreshInterval)
-	for range ticker.C {
-		addressMapLock.Lock()
-		symbolMapLock.Lock()
-		denomMapLock.Lock()
-		for k, v := range addressMap {
-			if time.Since(v.LastAccessTime) > cacheTTL {
-				delete(addressMap, k)
-			}
-		}
-		for k, v := range symbolMap {
-			if time.Since(v.LastAccessTime) > cacheTTL {
-				delete(symbolMap, k)
-			}
-		}
+	go func() {
+		ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, os.Kill)
+		defer stop()
+		ticker := time.NewTicker(cacheRefreshInterval)
+		for {
+			select {
+			case <-ctx.Done():
+				return
+			case <-ticker.C:
+				addressMapLock.Lock()
+				symbolMapLock.Lock()
+				denomMapLock.Lock()
+				for k, v := range addressMap {
+					if time.Since(v.LastAccessTime) > cacheTTL {
+						delete(addressMap, k)
+					}
+				}
+				for k, v := range symbolMap {
+					if time.Since(v.LastAccessTime) > cacheTTL {
+						delete(symbolMap, k)
+					}
+				}
 
-		for k, v := range denomMap {
-			if time.Since(v.LastAccessTime) > cacheTTL {
-				delete(denomMap, k)
+				for k, v := range denomMap {
+					if time.Since(v.LastAccessTime) > cacheTTL {
+						delete(denomMap, k)
+					}
+				}
+				addressMapLock.Unlock()
+				symbolMapLock.Unlock()
+				denomMapLock.Unlock()
 			}
 		}
-		addressMapLock.Unlock()
-		symbolMapLock.Unlock()
-		denomMapLock.Unlock()
-	}
+	}()
 }
