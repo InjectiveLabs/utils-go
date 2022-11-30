@@ -73,6 +73,7 @@ func GetTokenBySymbol(symbol string) *Token {
 
 // GetTokenByAddress no case sensitivity, and it's safe to pass address with prefix "peggy"
 // for unknown address, request metadata from alchemy
+// This method rely on an internal cache, so it's safe to call it frequently
 func GetTokenByAddress(address string) *Token {
 	if strings.ToLower(address) == "inj" {
 		return GetTokenBySymbol("inj")
