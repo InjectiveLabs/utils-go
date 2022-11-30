@@ -4,8 +4,8 @@ import (
 	"context"
 	_ "embed"
 	"encoding/json"
-	"github.com/ethereum/go-ethereum/common"
 	log "github.com/InjectiveLabs/suplog"
+	"github.com/ethereum/go-ethereum/common"
 	"os"
 	"strings"
 	"sync"
@@ -28,6 +28,9 @@ var denomMap map[string]*Token
 
 const alchemyEndpoint = "https://eth-mainnet.alchemyapi.io/v2/%s"
 const alchemyAPIKeyEnvVar = "ALCHEMY_API_KEY"
+
+const cacheTTL = time.Hour * 3
+const cacheRefreshInterval = time.Minute * 10
 
 var alchemyAPIKey string
 
@@ -58,6 +61,7 @@ func init() {
 	addressMapLock.Unlock()
 	denomMapLock.Unlock()
 	log.Infof("successfully loaded token meta config\n")
+	cacheCleaner()
 }
 
 // GetTokenBySymbol no case sensitivity, USD/usd/Usd are all fine
@@ -84,10 +88,10 @@ func GetTokenByAddress(address string) *Token {
 	ctx, cancelFn := context.WithTimeout(context.Background(), time.Second*10)
 	defer cancelFn()
 	tokenMeta, err := getTokenMetaFromAlchemyByAddress(ctx, address)
-	if err == nil && tokenMeta != nil {
+	if err == nil {
 		// add token metadata into the cache map
 		addressMapLock.Lock()
-		addressMap[address] = &Token{Address: address, Meta: tokenMeta}
+		addressMap[address] = &Token{Address: address, Meta: tokenMeta, LastAccessTime: time.Now()}
 		addressMapLock.Unlock()
 		return &Token{Address: address, Meta: tokenMeta}
 	}
@@ -99,4 +103,32 @@ func GetTokenByDenom(denom string) *Token {
 	denomMapLock.RLock()
 	defer denomMapLock.RUnlock()
 	return denomMap[strings.ToLower(denom)]
+}
+
+func cacheCleaner() {
+	ticker := time.NewTicker(cacheRefreshInterval)
+	for range ticker.C {
+		addressMapLock.Lock()
+		symbolMapLock.Lock()
+		denomMapLock.Lock()
+		for k, v := range addressMap {
+			if time.Since(v.LastAccessTime) > cacheTTL {
+				delete(addressMap, k)
+			}
+		}
+		for k, v := range symbolMap {
+			if time.Since(v.LastAccessTime) > cacheTTL {
+				delete(symbolMap, k)
+			}
+		}
+
+		for k, v := range denomMap {
+			if time.Since(v.LastAccessTime) > cacheTTL {
+				delete(denomMap, k)
+			}
+		}
+		addressMapLock.Unlock()
+		symbolMapLock.Unlock()
+		denomMapLock.Unlock()
+	}
 }

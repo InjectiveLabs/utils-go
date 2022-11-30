@@ -1,5 +1,7 @@
 package token
 
+import "time"
+
 type MetaSource string
 
 const (
@@ -8,11 +10,12 @@ const (
 )
 
 type Token struct {
-	Address     string     `json:"address"`
-	CoingeckoID string     `json:"coinGeckoId"`
-	Denom       string     `json:"denom,omitempty"`
-	MetaSource  MetaSource `json:"metaSource"`
-	Meta        *Meta      `json:"meta"`
+	Address        string     `json:"address"`
+	CoingeckoID    string     `json:"coinGeckoId"`
+	Denom          string     `json:"denom,omitempty"`
+	MetaSource     MetaSource `json:"metaSource"`
+	Meta           *Meta      `json:"meta"`
+	LastAccessTime time.Time  `json:"-"`
 }
 
 // Meta this struct is the same as the metadata in the resp of Alchemy
