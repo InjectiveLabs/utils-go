@@ -723,5 +723,17 @@
       "decimals": 18,
       "logo": "https://assets.coingecko.com/coins/images/2620/small/lympo_token.png?1547036775"
     }
+  },
+  "SOMM": {
+    "address": "0xa670d7237398238DE01267472C6f13e5B8010FD1",
+    "coinGeckoId": "sommelier",
+    "denom": "ibc/34346A60A95EB030D62D6F5BDD4B745BE18E8A693372A8A347D5D53DBBB1328B",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Sommelier",
+      "symbol": "SOMM",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/23308/small/somm_new.png?1650884424"
+    }
   }
 }
