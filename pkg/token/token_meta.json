@@ -732,7 +732,7 @@
     "meta": {
       "name": "Sommelier",
       "symbol": "SOMM",
-      "decimals": 18,
+      "decimals": 6,
       "logo": "https://assets.coingecko.com/coins/images/23308/small/somm_new.png?1650884424"
     }
   }
