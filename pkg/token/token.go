@@ -62,7 +62,9 @@ func init() {
 	addressMapLock.Unlock()
 	denomMapLock.Unlock()
 	log.Infof("successfully loaded token meta config\n")
-	cacheCleaner()
+	if alchemyAPIKey != "" {
+		cacheCleaner()
+	}
 }
 
 // GetTokenBySymbol no case sensitivity, USD/usd/Usd are all fine
