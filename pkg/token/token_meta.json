@@ -747,5 +747,53 @@
       "decimals": 6,
       "logo": "https://static.alchemyapi.io/images/assets/825.png"
     }
+  },
+  "axlUSDC": {
+    "address": "",
+    "coinGeckoId": "usd-coin",
+    "denom": "ibc/7E1AF94AD246BE522892751046F0C959B768642E5671CC3742264068D49553C0",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Axelar Wrapped USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logo": "https://assets.coingecko.com/coins/images/26476/small/axlUSDC.png?1658207579"
+    }
+  },
+  "ETHBTCTrend": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "peggy0x6b7f87279982d919Bbf85182DDeAB179B366D8f2",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "ETH-BTC Trend",
+      "symbol": "ETHBTCTrend",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/26476/small/axlUSDC.png?1658207579"
+    }
+  },
+  "USDCet": {
+    "address": "",
+    "coinGeckoId": "usd-coin",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6zlut7gtkzknkk773jecujwsdkgq882akqksk",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Wormhole Wrapped USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logo": "https://static.alchemyapi.io/images/assets/3408.png"
+    }
+  },
+  "USDCso": {
+    "address": "",
+    "coinGeckoId": "usd-coin",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj12pwnhtv7yat2s30xuf4gdk9qm85v4j3e60dgvu",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Wormhole Wrapped USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logo": "https://static.alchemyapi.io/images/assets/3408.png"
+    }
   }
 }

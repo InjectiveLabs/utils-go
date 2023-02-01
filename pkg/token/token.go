@@ -4,14 +4,17 @@ import (
 	"context"
 	_ "embed"
 	"encoding/json"
-	log "github.com/InjectiveLabs/suplog"
-	"github.com/ethereum/go-ethereum/common"
 	"os"
 	"os/signal"
 	"strings"
 	"sync"
 	"time"
+
+	log "github.com/InjectiveLabs/suplog"
+	"github.com/ethereum/go-ethereum/common"
 )
+
+const PeggyPrefix = "peggy"
 
 //go:embed token_meta.json
 var tokenMetaFileContent []byte
@@ -81,13 +84,18 @@ func GetTokenByAddress(address string) *Token {
 	if strings.ToLower(address) == "inj" {
 		return GetTokenBySymbol("inj")
 	}
-	address = strings.ToLower(strings.TrimPrefix(address, "peggy"))
+
 	addressMapLock.RLock()
-	token, ok := addressMap[address]
+	token, ok := addressMap[strings.ToLower(strings.TrimPrefix(address, PeggyPrefix))]
 	addressMapLock.RUnlock()
 	if ok && token != nil {
 		return token
 	}
+
+	if !strings.HasPrefix(address, PeggyPrefix) {
+		return nil
+	}
+
 	// token not exist in address map, search from alchemy
 	ctx, cancelFn := context.WithTimeout(context.Background(), time.Second*10)
 	defer cancelFn()
