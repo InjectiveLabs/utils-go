@@ -795,5 +795,17 @@
       "decimals": 6,
       "logo": "https://static.alchemyapi.io/images/assets/3408.png"
     }
+  },
+  "SOL": {
+    "address": "",
+    "coinGeckoId": "solana",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1sthrn5ep8ls5vzz8f9gp89khhmedahhdkqa8z3",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Wormhole Wrapped SOL",
+      "symbol": "SOL",
+      "decimals": 8,
+      "logo": "https://assets.coingecko.com/coins/images/4128/small/solana.png?1640133422"
+    }
   }
 }
