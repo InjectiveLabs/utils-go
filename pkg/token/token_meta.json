@@ -779,7 +779,7 @@
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6zlut7gtkzknkk773jecujwsdkgq882akqksk",
     "metaSource": "Custom",
     "meta": {
-      "name": "Wormhole Wrapped USDC",
+      "name": "USC Coin (Wormhole from Ethereum)",
       "symbol": "USDC",
       "decimals": 6,
       "logo": "https://static.alchemyapi.io/images/assets/3408.png"
@@ -791,7 +791,7 @@
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj12pwnhtv7yat2s30xuf4gdk9qm85v4j3e60dgvu",
     "metaSource": "Custom",
     "meta": {
-      "name": "Wormhole Wrapped USDC",
+      "name": "USD Coin (Wormhole from Solana)",
       "symbol": "USDC",
       "decimals": 6,
       "logo": "https://static.alchemyapi.io/images/assets/3408.png"
