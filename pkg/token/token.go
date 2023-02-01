@@ -120,20 +120,12 @@ func cacheCleaner() {
 				return
 			case <-ticker.C:
 				addressMapLock.Lock()
-				symbolMapLock.Lock()
 				for k, v := range addressMap {
 					if time.Since(v.LastAccessTime) > cacheTTL {
 						delete(addressMap, k)
 					}
 				}
-				for k, v := range symbolMap {
-					if time.Since(v.LastAccessTime) > cacheTTL {
-						delete(symbolMap, k)
-					}
-				}
-
 				addressMapLock.Unlock()
-				symbolMapLock.Unlock()
 			}
 		}
 	}()
