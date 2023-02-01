@@ -588,7 +588,7 @@
   "XPRT": {
     "address": "0xae837EacBAE2a6bA166ce0DEd5C72340f212835c",
     "coinGeckoId": "persistence",
-    "denom": "ibc/a0cc0cf735bfb30e730c70019d4218a1244ff383503ff7579c9201ab93ca9293",
+    "denom": "ibc/B786E7CBBF026F6F15A8DA248E0F18C62A0F7A70CB2DABD9239398C8B5150ABB",
     "metaSource": "custom",
     "meta": {
       "name": "Persistence",
@@ -634,6 +634,7 @@
     "address": "",
     "coinGeckoId": "polkadot",
     "metaSource": "custom",
+    "denom": "ibc/624BA9DD171915A2B9EA70F69638B2CEA179959850C1A586F6C485498F29EDD4",
     "meta": {
       "name": "Polkadot",
       "symbol": "DOT",
@@ -806,6 +807,18 @@
       "symbol": "SOL",
       "decimals": 8,
       "logo": "https://assets.coingecko.com/coins/images/4128/small/solana.png?1640133422"
+    }
+  },
+  "CRE": {
+    "address": "",
+    "coinGeckoId": "crescent-network",
+    "denom": "ibc/3A6DD3358D9F7ADD18CDE79BA10B400511A5DE4AE2C037D7C9639B52ADAF35C6",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Cresent Network",
+      "symbol": "CRE",
+      "decimals": 6,
+      "logo": "https://assets.coingecko.com/coins/images/25061/small/logo_200x200.png?1649943220"
     }
   }
 }
