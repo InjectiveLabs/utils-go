@@ -4,13 +4,15 @@ import (
 	"context"
 	_ "embed"
 	"encoding/json"
-	log "github.com/InjectiveLabs/suplog"
-	"github.com/ethereum/go-ethereum/common"
+
 	"os"
 	"os/signal"
 	"strings"
 	"sync"
 	"time"
+
+	log "github.com/InjectiveLabs/suplog"
+	"github.com/ethereum/go-ethereum/common"
 )
 
 //go:embed token_meta.json
@@ -88,6 +90,7 @@ func GetTokenByAddress(address string) *Token {
 	if ok && token != nil {
 		return token
 	}
+
 	// token not exist in address map, search from alchemy
 	ctx, cancelFn := context.WithTimeout(context.Background(), time.Second*10)
 	defer cancelFn()
