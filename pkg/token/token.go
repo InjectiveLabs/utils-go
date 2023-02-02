@@ -102,6 +102,7 @@ func GetTokenByAddress(address string) *Token {
 		addressMapLock.Unlock()
 		return &Token{Address: address, Meta: tokenMeta}
 	}
+	log.Errorf("failed to get token metadata from alchemy, address: [%s], error: [%s]", address, err)
 	return nil
 }
 
