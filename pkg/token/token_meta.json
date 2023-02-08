@@ -820,5 +820,17 @@
       "decimals": 6,
       "logo": "https://assets.coingecko.com/coins/images/25061/small/logo_200x200.png?1649943220"
     }
+  },
+  "whCHZ": {
+    "address": "",
+    "coinGeckoId": "chiliz",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6kpxy6ar5lkxqudjvryarrrttmakwsvzkvcyh",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Chiliz (Wormhole)",
+      "symbol": "CHZ",
+      "decimals": 8,
+      "logo": "https://static.alchemyapi.io/images/assets/4066.png"
+    }
   }
 }
