@@ -832,5 +832,17 @@
       "decimals": 8,
       "logo": "https://static.alchemyapi.io/images/assets/4066.png"
     }
+  },
+  "CANTO": {
+    "address": "",
+    "coinGeckoId": "canto",
+    "denom": "ibc/D91A2C4EE7CD86BBAFCE0FA44A60DDD9AFBB7EEB5B2D46C0984DEBCC6FEDFAE8",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "CANTO",
+      "symbol": "CANTO",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/26959/large/canto-network.png?1661215219"
+    }
   }
 }
