@@ -113,6 +113,10 @@ func GetTokenByDenom(denom string) *Token {
 	return denomMap[strings.ToLower(denom)]
 }
 
+func SetDenomToMetadataMap(metadataMap map[string]*Token) {
+	denomMap = metadataMap
+}
+
 func cacheCleaner() {
 	go func() {
 		ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, os.Kill)
