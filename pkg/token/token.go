@@ -114,6 +114,8 @@ func GetTokenByDenom(denom string) *Token {
 }
 
 func SetDenomToMetadataMap(metadataMap map[string]*Token) {
+	denomMapLock.Lock()
+	defer denomMapLock.Unlock()
 	denomMap = metadataMap
 }
 
