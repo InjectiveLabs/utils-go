@@ -844,5 +844,17 @@
       "decimals": 18,
       "logo": "https://assets.coingecko.com/coins/images/26959/large/canto-network.png?1661215219"
     }
+  },
+  "LDO": {
+    "address": "",
+    "coinGeckoId": "lido-dao",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1me6t602jlndzxgv2d7ekcnkjuqdp7vfh4txpyy",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Lido DAO",
+      "symbol": "LDO",
+      "decimals": 8,
+      "logo": "https://assets.coingecko.com/coins/images/13573/large/Lido_DAO.png?1609873644"
+    }
   }
 }
