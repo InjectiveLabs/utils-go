@@ -856,5 +856,17 @@
       "decimals": 8,
       "logo": "https://assets.coingecko.com/coins/images/13573/large/Lido_DAO.png?1609873644"
     }
+  },
+  "ARB": {
+    "address": "",
+    "coinGeckoId": "arbitrum",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1d5vz0uzwlpfvgwrwulxg6syy82axa58y4fuszd",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "decimals": 8,
+      "logo": "https://assets.coingecko.com/coins/images/16547/large/arbitrium.png?1624418103"
+    }
   }
 }
