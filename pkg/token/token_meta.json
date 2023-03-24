@@ -872,7 +872,7 @@
   "testToken": {
     "address": "",
     "coinGeckoId": "testTokenCorrect",
-    "denom": "peggy0x4ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk",
+    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/customtestcoin",
     "metaSource": "Custom",
     "meta": {
       "name": "Test",
