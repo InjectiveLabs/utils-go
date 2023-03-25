@@ -868,17 +868,5 @@
       "decimals": 8,
       "logo": "https://assets.coingecko.com/coins/images/16547/large/arbitrium.png?1624418103"
     }
-  },
-  "testToken": {
-    "address": "",
-    "coinGeckoId": "testTokenCorrect",
-    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/customtestcoin",
-    "metaSource": "Custom",
-    "meta": {
-      "name": "Test",
-      "symbol": "TTK",
-      "decimals": 8,
-      "logo": "https://assets.coingecko.com/coins/images/16547/large/arbitrium.png?1624418103"
-    }
   }
 }
