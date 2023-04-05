@@ -91,18 +91,6 @@ func GetTokenByAddress(address string) *Token {
 		return token
 	}
 
-	// token not exist in address map, search from alchemy
-	ctx, cancelFn := context.WithTimeout(context.Background(), time.Second*10)
-	defer cancelFn()
-	tokenMeta, err := getTokenMetaFromAlchemyByAddress(ctx, address)
-	if err == nil {
-		// add token metadata into the cache map
-		addressMapLock.Lock()
-		addressMap[address] = &Token{Address: address, Meta: tokenMeta, LastAccessTime: time.Now()}
-		addressMapLock.Unlock()
-		return &Token{Address: address, Meta: tokenMeta}
-	}
-	log.Errorf("failed to get token metadata from alchemy, address: [%s], error: [%s]", address, err)
 	return nil
 }
 
