@@ -877,7 +877,7 @@
     "meta": {
       "name": "Wrapped Bitcoin",
       "symbol": "WBTC",
-      "decimals": 8,
+      "decimals": 18,
       "logo": "https://static.alchemyapi.io/images/assets/3717.png"
     }
   }
