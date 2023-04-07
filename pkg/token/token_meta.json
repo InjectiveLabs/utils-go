@@ -872,7 +872,7 @@
   "devWBTC": {
     "address": "",
     "coinGeckoId": "bitcoin",
-    "denom": "peggy0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj14au322k9munkmx5wrchz9q30juf5wjgz2cfqku",
     "metaSource": "Custom",
     "meta": {
       "name": "Wrapped Bitcoin",
