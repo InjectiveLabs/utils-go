@@ -880,5 +880,17 @@
       "decimals": 18,
       "logo": "https://static.alchemyapi.io/images/assets/3717.png"
     }
+  },
+  "MATIC": {
+    "address": "",
+    "coinGeckoId": "wmatic",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1dxv423h8ygzgxmxnvrf33ws3k94aedfdevxd8h",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Wrapped Matic",
+      "symbol": "wMATIC",
+      "decimals": 8,
+      "logo": "https://assets.coingecko.com/coins/images/14073/large/matic.png?1628852392"
+    }
   }
 }
