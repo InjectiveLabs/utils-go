@@ -880,5 +880,17 @@
       "decimals": 18,
       "logo": "https://static.alchemyapi.io/images/assets/3717.png"
     }
+  },
+  "testnetAPE": {
+    "address": "",
+    "coinGeckoId": "bitcoin",
+    "denom": "peggy0x44C21afAaF20c270EBbF5914Cfc3b5022173FEB7",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "APE",
+      "symbol": "APE",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/24383/small/apecoin.jpg?1647476455"
+    }
   }
 }
