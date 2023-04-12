@@ -883,7 +883,7 @@
   },
   "testnetAPE": {
     "address": "",
-    "coinGeckoId": "bitcoin",
+    "coinGeckoId": "apecoin",
     "denom": "peggy0x44C21afAaF20c270EBbF5914Cfc3b5022173FEB7",
     "metaSource": "Custom",
     "meta": {
@@ -895,7 +895,7 @@
   },
   "wMATIC": {
     "address": "",
-    "coinGeckoId": "apecoin",
+    "coinGeckoId": "wmatic",
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1dxv423h8ygzgxmxnvrf33ws3k94aedfdevxd8h",
     "metaSource": "Custom",
     "meta": {
