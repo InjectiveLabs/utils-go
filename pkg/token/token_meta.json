@@ -904,5 +904,41 @@
       "decimals": 8,
       "logo": "https://assets.coingecko.com/coins/images/14073/large/matic.png?1628852392"
     }
+  },
+  "testnetBTC": {
+    "address": "",
+    "coinGeckoId": "bitcoin",
+    "denom": "factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/wbtc",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "Wrapped Bitcoin",
+      "symbol": "WBTC",
+      "decimals": 8,
+      "logo": "https://static.alchemyapi.io/images/assets/3717.png"
+    }
+  },
+  "testnetATOM": {
+    "address": "",
+    "coinGeckoId": "cosmos",
+    "denom": "factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/atom",
+    "metaSource": "custom",
+    "meta": {
+      "name": "Cosmos",
+      "symbol": "ATOM",
+      "decimals": 6,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/3794.png"
+    }
+  },
+  "testnetWETH": {
+    "address": "",
+    "coinGeckoId": "ethereum",
+    "denom": "factory/inj17vytdwqczqz72j65saukplrktd4gyfme5agf6c/weth",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "WETH",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/2396.png"
+    }
   }
 }
