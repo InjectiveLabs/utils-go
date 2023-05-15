@@ -1427,18 +1427,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "100000",
-            "minQuantityTickSize": "0.0001",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "6911429739.068724608019613944",
-                "cumulativePrice": "-0.496548317217797268",
-                "lastTimestamp": 1683210002
-            }
+            "minQuantityTickSize": "0.0001"            
         },
         {
             "marketId": "0x54d4505adef6a5cef26bc403a33d595620ded4e15b9e2bc3dd489b714813366a",
@@ -1464,18 +1453,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "10000",
-            "minQuantityTickSize": "0.01",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1682575200,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "545577757.210298811906382866",
-                "cumulativePrice": "-103.747603985814869163",
-                "lastTimestamp": 1683209903
-            }
+            "minQuantityTickSize": "0.01"
         },
         {
             "marketId": "0x1c79dac019f73e4060494ab1b4fcba734350656d6fc4d474f6a238c13c6f9ced",
@@ -1501,18 +1479,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "10000",
-            "minQuantityTickSize": "0.01",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "-2288080.656676596704710883",
-                "cumulativePrice": "-3.358412796062749194",
-                "lastTimestamp": 1683208722
-            }
+            "minQuantityTickSize": "0.01"
         },
         {
             "marketId": "0x9b9980167ecc3645ff1a5517886652d94a0825e54a77d2057cbbe3ebee015963",
@@ -1538,18 +1505,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "1000",
-            "minQuantityTickSize": "0.001",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "1344664.250580115207648111",
-                "cumulativePrice": "0.684755767684682835",
-                "lastTimestamp": 1683210008
-            }
+            "minQuantityTickSize": "0.001"
         },
         {
             "marketId": "0x8158e603fb80c4e417696b0e98765b4ca89dcf886d3b9b2b90dc15bfb1aebd51",
@@ -1575,18 +1531,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "0.01",
-            "minQuantityTickSize": "0.1",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "21387069.35834591411682876",
-                "cumulativePrice": "0",
-                "lastTimestamp": 1653127200
-            }
+            "minQuantityTickSize": "0.1"
         },
         {
             "marketId": "0xc559df216747fc11540e638646c384ad977617d6d8f0ea5ffdfc18d52e58ab01",
@@ -1612,18 +1557,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "1000",
-            "minQuantityTickSize": "0.01",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "4853003.662078038759153077",
-                "cumulativePrice": "-1.110760306764010033",
-                "lastTimestamp": 1683209801
-            }
+            "minQuantityTickSize": "0.01"
         },
         {
             "marketId": "0xc60c2ba4c11976e4c10ed7c1f5ca789b63282d0b3782ec3d7fc29dec9f43415e",
@@ -1649,18 +1583,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "100",
-            "minQuantityTickSize": "0.1",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "-618.690246632743269909",
-                "cumulativePrice": "19.135142640002570734",
-                "lastTimestamp": 1683181946
-            }
+            "minQuantityTickSize": "0.1"
         },
         {
             "marketId": "0x2d1fc1ebff7cae29d6f85d3a2bb7f3f6f2bab12a25d6cc2834bcb06d7b08fd74",
@@ -1686,18 +1609,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "100000000000000",
-            "minQuantityTickSize": "0.0001",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "-2759084493486933640.09308349392222",
-                "cumulativePrice": "0",
-                "lastTimestamp": 1667940243
-            }
+            "minQuantityTickSize": "0.0001"
         },
         {
             "marketId": "0x8c7fd5e6a7f49d840512a43d95389a78e60ebaf0cde1af86b26a785eb23b3be5",
@@ -1723,19 +1635,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "1000",
-            "minQuantityTickSize": "0.01",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "848.424445691719007929",
-                "cumulativePrice": "4.595159563959176094",
-                "lastTimestamp": 1652077029
-            }
-        },
+            "minQuantityTickSize": "0.01"        },
         {
             "marketId": "0xcf18525b53e54ad7d27477426ade06d69d8d56d2f3bf35fe5ce2ad9eb97c2fbc",
             "marketStatus": "active",
@@ -1760,18 +1660,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "1000",
-            "minQuantityTickSize": "0.01",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "-87096.014729740495587092",
-                "cumulativePrice": "38.040853994044886528",
-                "lastTimestamp": 1682714789
-            }
+            "minQuantityTickSize": "0.01"
         },
         {
             "marketId": "0x06c5a306492ddc2b8dc56969766959163287ed68a6b59baa2f42330dda0aebe0",
@@ -1797,18 +1686,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "10000",
-            "minQuantityTickSize": "0.1",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.0000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "375344.948982187409231433",
-                "cumulativePrice": "-99.31533032638325675",
-                "lastTimestamp": 1660758470
-            }
+            "minQuantityTickSize": "0.1"
         },
         {
             "marketId": "0x3b7fb1d9351f7fa2e6e0e5a11b3639ee5e0486c33a6a74f629c3fc3c3043efd5",
@@ -1834,18 +1712,7 @@
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
             "minPriceTickSize": "0.0001",
-            "minQuantityTickSize": "0.1",
-            "perpetualMarketInfo": {
-                "hourlyFundingRateCap": "0.000625",
-                "hourlyInterestRate": "0.00000416666",
-                "nextFundingTimestamp": 1683212400,
-                "fundingInterval": 3600
-            },
-            "perpetualMarketFunding": {
-                "cumulativeFunding": "0.003568165691692207",
-                "cumulativePrice": "456.271861797373334872",
-                "lastTimestamp": 1679080697
-            }
+            "minQuantityTickSize": "0.1"    
         }
     ]
 }
