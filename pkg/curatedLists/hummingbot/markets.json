@@ -756,35 +756,6 @@
             "minQuantityTickSize": "1000000000000000"
         },
         {
-            "marketId": "0xd7487c1fc78fdb283d838fa562339db0ca05cd4af57c6a20e6561f260c78d1ae",
-            "ticker": "XBX/USDT",
-            "baseDenom": "peggy0x080B12E80C9b45e97C23b6ad10a16B3e2a123949",
-            "baseTokenMeta":
-            {
-                "name": "X-BLOX",
-                "address": "0x080B12E80C9b45e97C23b6ad10a16B3e2a123949",
-                "symbol": "XBX",
-                "logo": "https://assets.coingecko.com/coins/images/26381/small/xblox-logo.png?1657678295",
-                "decimals": 18,
-                "updatedAt": 1681165436593
-            },
-            "quoteDenom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
-            "quoteTokenMeta":
-            {
-                "name": "Tether",
-                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-                "symbol": "USDT",
-                "logo": "https://static.alchemyapi.io/images/assets/825.png",
-                "decimals": 6,
-                "updatedAt": 1681165436593
-            },
-            "makerFeeRate": "0.001",
-            "takerFeeRate": "0.002",
-            "serviceProviderFee": "0.4",
-            "minPriceTickSize": "0.000000000000001",
-            "minQuantityTickSize": "1000000000000000"
-        },
-        {
             "marketId": "0xf04d1b7acf40b331d239fcff7950f98a4f2ab7adb2ceb8f65aa32ac29455d7b4",
             "ticker": "HUAHUA/USDT",
             "baseDenom": "ibc/E7807A46C0B7B44B350DA58F51F278881B863EC4DCA94635DAB39E52C30766CB",
