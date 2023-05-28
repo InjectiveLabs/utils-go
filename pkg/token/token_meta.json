@@ -940,5 +940,17 @@
       "decimals": 8,
       "logo": "https://static.alchemyapi.io/images/assets/2396.png"
     }
+  },
+  "testnetUSDC": {
+    "address": "",
+    "coinGeckoId": "usd-coin",
+    "denom": "factory/inj1hdvy6tl89llqy3ze8lv6mz5qh66sx9enn0jxg6/inj12sqy9uzzl3h3vqxam7sz9f0yvmhampcgesh3qw",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logo": "https://static.alchemyapi.io/images/assets/3408.png"
+    }
   }
 }
