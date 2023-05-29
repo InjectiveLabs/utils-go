@@ -1288,35 +1288,6 @@
             "minQuantityTickSize": "10000000000000000000"
         },
         {
-            "marketId": "0x7fce43f1140df2e5f16977520629e32a591939081b59e8fbc1e1c4ddfa77a044",
-            "ticker": "LDO/USDC",
-            "baseDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6zlut7gtkzknkk773jecujwsdkgq882akqksk",
-            "baseTokenMeta":
-            {
-                "name": "USC Coin (Wormhole from Ethereum)",
-                "address": "0x0000000000000000000000000000000000000000",
-                "symbol": "USDC",
-                "logo": "https://static.alchemyapi.io/images/assets/3408.png",
-                "decimals": 6,
-                "updatedAt": 1681165436593
-            },
-            "quoteDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1me6t602jlndzxgv2d7ekcnkjuqdp7vfh4txpyy",
-            "quoteTokenMeta":
-            {
-                "name": "Lido DAO",
-                "address": "0x0000000000000000000000000000000000000000",
-                "symbol": "LDO",
-                "logo": "https://assets.coingecko.com/coins/images/13573/large/Lido_DAO.png?1609873644",
-                "decimals": 8,
-                "updatedAt": 1681165436593
-            },
-            "makerFeeRate": "-0.0001",
-            "takerFeeRate": "0.001",
-            "serviceProviderFee": "0.4",
-            "minPriceTickSize": "0.1",
-            "minQuantityTickSize": "1000"
-        },
-        {
             "marketId": "0x66a113e1f0c57196985f8f1f1cfce2f220fa0a96bca39360c70b6788a0bc06e0",
             "ticker": "LDO/USDC",
             "baseDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1me6t602jlndzxgv2d7ekcnkjuqdp7vfh4txpyy",
@@ -1382,7 +1353,7 @@
             {
                 "name": "Wrapped Matic",
                 "address": "0x0000000000000000000000000000000000000000",
-                "symbol": "wMATIC",
+                "symbol": "WMATIC",
                 "logo": "https://assets.coingecko.com/coins/images/14073/large/matic.png?1628852392",
                 "decimals": 8,
                 "updatedAt": 1681165436589
