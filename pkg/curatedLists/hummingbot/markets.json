@@ -665,7 +665,7 @@
             "makerFeeRate": "-0.0001",
             "takerFeeRate": "0.001",
             "serviceProviderFee": "0.4",
-            "minPriceTickSize": "0.0000000000000001",
+            "minPriceTickSize": "0.000000000000001",
             "minQuantityTickSize": "1000000000000000"
         },
         {
@@ -954,7 +954,7 @@
             "makerFeeRate": "-0.0001",
             "takerFeeRate": "0.001",
             "serviceProviderFee": "0.4",
-            "minPriceTickSize": "0.0001",
+            "minPriceTickSize": "0.001",
             "minQuantityTickSize": "1000"
         },
         {
@@ -1111,7 +1111,7 @@
             "takerFeeRate": "0.001",
             "serviceProviderFee": "0.4",
             "minPriceTickSize": "0.0001",
-            "minQuantityTickSize": "1000000"
+            "minQuantityTickSize": "10000000"
         },
         {
             "marketId": "0x84ba79ffde31db8273a9655eb515cb6cadfdf451b8f57b83eb3f78dca5bbbe6d",
@@ -1290,18 +1290,8 @@
         {
             "marketId": "0x7fce43f1140df2e5f16977520629e32a591939081b59e8fbc1e1c4ddfa77a044",
             "ticker": "LDO/USDC",
-            "baseDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6zlut7gtkzknkk773jecujwsdkgq882akqksk",
+            "baseDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1me6t602jlndzxgv2d7ekcnkjuqdp7vfh4txpyy",
             "baseTokenMeta":
-            {
-                "name": "USC Coin (Wormhole from Ethereum)",
-                "address": "0x0000000000000000000000000000000000000000",
-                "symbol": "USDC",
-                "logo": "https://static.alchemyapi.io/images/assets/3408.png",
-                "decimals": 6,
-                "updatedAt": 1681165436593
-            },
-            "quoteDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1me6t602jlndzxgv2d7ekcnkjuqdp7vfh4txpyy",
-            "quoteTokenMeta":
             {
                 "name": "Lido DAO",
                 "address": "0x0000000000000000000000000000000000000000",
@@ -1310,6 +1300,17 @@
                 "decimals": 8,
                 "updatedAt": 1681165436593
             },
+            "quoteDenom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1q6zlut7gtkzknkk773jecujwsdkgq882akqksk",
+            "quoteTokenMeta":
+            {
+                "name": "USC Coin (Wormhole from Ethereum)",
+                "address": "0x0000000000000000000000000000000000000000",
+                "symbol": "USDC",
+                "logo": "https://static.alchemyapi.io/images/assets/3408.png",
+                "decimals": 6,
+                "updatedAt": 1681165436593
+            },
+
             "makerFeeRate": "-0.0001",
             "takerFeeRate": "0.001",
             "serviceProviderFee": "0.4",
@@ -1582,7 +1583,7 @@
             "takerFeeRate": "0.001",
             "serviceProviderFee": "0.4",
             "isPerpetual": true,
-            "minPriceTickSize": "100",
+            "minPriceTickSize": "1000",
             "minQuantityTickSize": "0.1"
         },
         {
