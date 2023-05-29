@@ -1383,7 +1383,7 @@
             {
                 "name": "Wrapped Matic",
                 "address": "0x0000000000000000000000000000000000000000",
-                "symbol": "wMATIC",
+                "symbol": "WMATIC",
                 "logo": "https://assets.coingecko.com/coins/images/14073/large/matic.png?1628852392",
                 "decimals": 8,
                 "updatedAt": 1681165436589
