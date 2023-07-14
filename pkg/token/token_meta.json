@@ -869,6 +869,18 @@
       "logo": "https://assets.coingecko.com/coins/images/16547/large/arbitrium.png?1624418103"
     }
   },
+  "XRP": {
+    "address": "",
+    "coinGeckoId": "xrp",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1d5vz0uzwlpfvgwrwulxg6syy82axa58y4fuszd",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Ripple",
+      "symbol": "XRP",
+      "decimals": 18,
+      "logo": "https://assets.coingecko.com/coins/images/44/large/xrp.png"
+    }
+  },
   "devWBTC": {
     "address": "",
     "coinGeckoId": "bitcoin",
