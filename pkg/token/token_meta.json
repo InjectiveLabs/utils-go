@@ -964,5 +964,17 @@
       "decimals": 6,
       "logo": "https://static.alchemyapi.io/images/assets/3408.png"
     }
+  },
+  "stINJ": {
+    "address": "",
+    "coinGeckoId": "injective-protocol",
+    "denom": "ibc/AC87717EA002B0123B10A05063E69BCA274BA2C44D842AEEB41558D2856DCE93",
+    "metaSource": "Alchemy",
+    "meta": {
+      "name": "Staked Injective Protocol",
+      "symbol": "stINJ",
+      "decimals": 18,
+      "logo": "https://static.alchemyapi.io/images/assets/7226.png"
+    }
   }
 }
