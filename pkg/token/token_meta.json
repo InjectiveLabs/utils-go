@@ -976,5 +976,41 @@
       "decimals": 18,
       "logo": "https://static.alchemyapi.io/images/assets/7226.png"
     }
+  },
+  "PUG": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "peggy0xf9a06dE3F6639E6ee4F079095D5093644Ad85E8b",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "PugToken",
+      "symbol": "PUG",
+      "decimals": 18,
+      "logo": ""
+    }
+  },
+  "steadyETH": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "peggy0x3F07A84eCdf494310D397d24c1C78B041D2fa622",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Steady ETH",
+      "symbol": "steadyETH",
+      "decimals": 18,
+      "logo": ""
+    }
+  },
+  "steadyBTC": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "peggy0x4986fD36b6b16f49b43282Ee2e24C5cF90ed166d",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Steady BTC",
+      "symbol": "steadyBTC",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
