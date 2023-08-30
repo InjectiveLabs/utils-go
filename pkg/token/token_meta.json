@@ -1012,5 +1012,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "mitoTestToken1": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/mitotest1",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "MitoTest1",
+      "symbol": "MitoTest1",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
