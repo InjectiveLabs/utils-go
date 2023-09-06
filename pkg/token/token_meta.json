@@ -1024,5 +1024,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "NEOK": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "ibc/F6CC233E5C0EA36B1F74AB1AF98471A2D6A80E2542856639703E908B4D93E7C4",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "NEOK",
+      "symbol": "NEOK",
+      "decimals": 18,
+      "logo": "https://raw.githubusercontent.com/NeokingdomDAO/assets/main/token/neok.svg"
+    }
   }
 }
