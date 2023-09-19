@@ -1048,17 +1048,5 @@
       "decimals": 6,
       "logo": "https://assets.coingecko.com/coins/images/12931/small/orai.png?1647077378"
     }
-  },
-  "TestToken": {
-    "address": "",
-    "coinGeckoId": "test-token",
-    "denom": "ibc/123",
-    "metaSource": "Custom",
-    "meta": {
-      "name": "Tester",
-      "symbol": "TEST",
-      "decimals": 6,
-      "logo": "https://assets.coingecko.com/coins/images/12931/small/orai.png?1647077378"
-    }
   }
 }
