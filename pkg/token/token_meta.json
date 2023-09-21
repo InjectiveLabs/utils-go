@@ -1048,5 +1048,17 @@
       "decimals": 6,
       "logo": "https://assets.coingecko.com/coins/images/12931/small/orai.png?1647077378"
     }
+  },
+  "testnetSTINJ": {
+    "address": "",
+    "coinGeckoId": "injective-protocol",
+    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/stinj",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Staked Injective Protocol",
+      "symbol": "stINJ",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
