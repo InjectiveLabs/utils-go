@@ -1060,5 +1060,29 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "USDTkv": {
+    "address": "",
+    "coinGeckoId": "tether",
+    "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Kava USDT",
+      "symbol": "USDTkv",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "KAVA": {
+    "address": "",
+    "coinGeckoId": "kava",
+    "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Kava",
+      "symbol": "KAVA",
+      "decimals": 6,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4846.png"
+    }
   }
 }
