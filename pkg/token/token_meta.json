@@ -1085,16 +1085,16 @@
       "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4846.png"
     }
   },
-  "testKAVA": {
+  "PROJ": {
     "address": "",
-    "coinGeckoId": "kava",
-    "denom": "ibctest",
+    "coinGeckoId": "proj",
+    "denom": "proj",
     "metaSource": "Custom",
     "meta": {
-      "name": "Kava",
-      "symbol": "KAVA",
+      "name": "PROJ",
+      "symbol": "PROJ",
       "decimals": 18,
-      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/4846.png"
+      "logo": ""
     }
   }
 }
