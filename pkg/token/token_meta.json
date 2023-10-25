@@ -1096,5 +1096,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "nobleUSDC": {
+    "address": "",
+    "coinGeckoId": "usd-coin",
+    "denom": "ibc/2CBC2EA121AE42563B08028466F37B600F2D7D4282342DE938283CC3FB2BC00E",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Noble USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logo": "https://static.alchemyapi.io/images/assets/3408.png"
+    }
   }
 }
