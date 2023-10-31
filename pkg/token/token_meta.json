@@ -1111,7 +1111,7 @@
   },
   "TIA": {
     "address": "",
-    "coinGeckoId": "",
+    "coinGeckoId": "celestia",
     "denom": "ibc/F51BB221BAA275F2EBF654F70B005627D7E713AFFD6D86AFD1E43CAA886149F4",
     "metaSource": "Custom",
     "meta": {
