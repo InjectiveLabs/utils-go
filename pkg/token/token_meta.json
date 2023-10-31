@@ -1108,5 +1108,17 @@
       "decimals": 6,
       "logo": "https://static.alchemyapi.io/images/assets/3408.png"
     }
+  },
+  "TIA": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "ibc/F51BB221BAA275F2EBF654F70B005627D7E713AFFD6D86AFD1E43CAA886149F4",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Celestia",
+      "symbol": "TIA",
+      "decimals": 6,
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22861.png"
+    }
   }
 }
