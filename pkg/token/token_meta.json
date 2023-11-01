@@ -1120,5 +1120,17 @@
       "decimals": 6,
       "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/22861.png"
     }
+  },
+  "TALIS": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1maeyvxfamtn8lfyxpjca8kuvauuf2qeu6gtxm3/Talis",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Talis",
+      "symbol": "TALIS",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
