@@ -1132,5 +1132,17 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "testnetPROJ": {
+    "address": "",
+    "coinGeckoId": "proj",
+    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/proj",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "PROJ",
+      "symbol": "PROJ",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
