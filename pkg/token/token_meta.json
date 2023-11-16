@@ -1144,5 +1144,29 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "WHALE": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "ibc/D6E6A20ABDD600742D22464340A7701558027759CE14D12590F8EA869CCCF445",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "WHALE",
+      "symbol": "WHALE",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "PROJX": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/projx",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Mito ProjectX",
+      "symbol": "PROJX",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
