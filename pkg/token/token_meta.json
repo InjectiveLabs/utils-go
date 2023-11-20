@@ -1180,5 +1180,17 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "PYTH": {
+    "address": "",
+    "coinGeckoId": "pyth-network",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1tjcf9497fwmrnk22jfu5hsdq82qshga54ajvzy",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Pyth Network",
+      "symbol": "PYTH",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
