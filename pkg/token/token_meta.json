@@ -1201,7 +1201,7 @@
     "meta": {
       "name": "Ondo US Dollar Yield",
       "symbol": "USDY",
-      "decimals": 6,
+      "decimals": 18,
       "logo": ""
     }
   }
