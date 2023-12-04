@@ -1204,5 +1204,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "ZEN": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/zen",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "ZEN",
+      "symbol": "ZEN",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
