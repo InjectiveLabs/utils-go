@@ -1216,5 +1216,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "nINJ": {
+    "address": "",
+    "coinGeckoId": "injective-protocol",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj13xlpypcwl5fuc84uhqzzqumnrcfpptyl6w3vrf",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "nINJ",
+      "symbol": "nINJ",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
