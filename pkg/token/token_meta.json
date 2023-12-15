@@ -1219,11 +1219,11 @@
   },
   "nINJ": {
     "address": "",
-    "coinGeckoId": "injective-protocol",
+    "coinGeckoId": "",
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj13xlpypcwl5fuc84uhqzzqumnrcfpptyl6w3vrf",
     "metaSource": "Custom",
     "meta": {
-      "name": "nINJ",
+      "name": "Gryphon Staked Injective",
       "symbol": "nINJ",
       "decimals": 18,
       "logo": ""
