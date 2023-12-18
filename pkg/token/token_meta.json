@@ -1264,5 +1264,17 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "BRETT": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj13jjdsa953w03dvecsr43dj5r6a2vzt7n0spncv/brett",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "BluePepe",
+      "symbol": "BRETT",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
