@@ -1228,5 +1228,41 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "KIRA": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1xy3kvlr4q4wdd6lrelsrw2fk2ged0any44hhwq/KIRA",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "KIRA",
+      "symbol": "KIRA",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "KATANA": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1vwn4x08hlactxj3y3kuqddafs2hhqzapruwt87/katana",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "KATANA",
+      "symbol": "KATANA",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "NINJA": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "NINJA",
+      "symbol": "NINJA",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
