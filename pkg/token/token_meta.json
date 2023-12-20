@@ -1276,5 +1276,17 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "ZIG": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "peggy0xb2617246d0c6c0087f18703d576831899ca94f01",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "ZigCoin",
+      "symbol": "ZIG",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
