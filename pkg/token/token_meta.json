@@ -1258,6 +1258,7 @@
     "coinGeckoId": "",
     "denom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
     "metaSource": "Custom",
+    "injectiveMarkets": ["0xdf9317eac1739a23bc385e264afde5d480c0b3d2322660b5efd206071d4e70b7"],
     "meta": {
       "name": "NINJA",
       "symbol": "NINJA",
