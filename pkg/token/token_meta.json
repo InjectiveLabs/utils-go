@@ -1288,5 +1288,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "SNOWY": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1ml33x7lkxk6x2x95d3alw4h84evlcdz2gnehmk/SNOWY",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Injective Snowy",
+      "symbol": "SNOWY",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
