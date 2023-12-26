@@ -1234,6 +1234,7 @@
     "coinGeckoId": "",
     "denom": "factory/inj1xy3kvlr4q4wdd6lrelsrw2fk2ged0any44hhwq/KIRA",
     "metaSource": "Custom",
+    "injectiveMarkets": ["0x2d3b8d8833dda54a717adea9119134556848105fd6028e9a4a526e4e5a122a57"],
     "meta": {
       "name": "KIRA",
       "symbol": "KIRA",
@@ -1246,6 +1247,7 @@
     "coinGeckoId": "",
     "denom": "factory/inj1vwn4x08hlactxj3y3kuqddafs2hhqzapruwt87/katana",
     "metaSource": "Custom",
+    "injectiveMarkets": ["0x4bb3426a2d7ba80c244ef7eecfd7c4fd177d78e63ff40ba6235b1ae471e23cdb"],
     "meta": {
       "name": "KATANA",
       "symbol": "KATANA",
@@ -1258,6 +1260,7 @@
     "coinGeckoId": "",
     "denom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
     "metaSource": "Custom",
+    "injectiveMarkets": ["0xdf9317eac1739a23bc385e264afde5d480c0b3d2322660b5efd206071d4e70b7"],
     "meta": {
       "name": "NINJA",
       "symbol": "NINJA",
