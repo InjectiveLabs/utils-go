@@ -1303,5 +1303,17 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "AUTISM": {
+    "address": "",
+    "coinGeckoId": "autism",
+    "denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Autism",
+      "symbol": "AUTISM",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
