@@ -1282,7 +1282,7 @@
   },
   "ZIG": {
     "address": "",
-    "coinGeckoId": "",
+    "coinGeckoId": "zignaly",
     "denom": "peggy0xb2617246d0c6c0087f18703d576831899ca94f01",
     "metaSource": "Custom",
     "meta": {
@@ -1301,6 +1301,78 @@
       "name": "Injective Snowy",
       "symbol": "SNOWY",
       "decimals": 6,
+      "logo": ""
+    }
+  },
+  "KLAY": {
+    "address": "",
+    "coinGeckoId": "klay-token",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj14cl67lprqkt3pncjav070gavaxslc0tzpc56f4",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Wrapped KLAY",
+      "symbol": "WKLAY",
+      "decimals": 8,
+      "logo": ""
+    }
+  },
+  "NOIS": {
+    "address": "",
+    "coinGeckoId": "nois",
+    "denom": "ibc/DD9182E8E2B13C89D6B4707C7B43E8DB6193F9FF486AFA0E6CF86B427B0D231A",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "NOIS",
+      "symbol": "NOIS",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "MEMEME": {
+    "address": "0x1A963Df363D01EEBB2816b366d61C917F20e1EbE",
+    "coinGeckoId": "mememe",
+    "denom": "peggy0x1A963Df363D01EEBB2816b366d61C917F20e1EbE",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Mememe",
+      "symbol": "MEMEME",
+      "decimals": 18,
+      "logo": ""
+    }
+  },
+  "BONK": {
+    "address": "",
+    "coinGeckoId": "bonk",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj14rry9q6dym3dgcwzq79yay0e9azdz55jr465ch",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "BONK",
+      "symbol": "BONK",
+      "decimals": 8,
+      "logo": ""
+    }
+  },
+  "VIRIDIS": {
+    "address": "",
+    "coinGeckoId": "viridis-network",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj14rry9q6dym3dgcwzq79yay0e9azdz55jr465ch",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Viridis Network",
+      "symbol": "VRD",
+      "decimals": 18,
+      "logo": ""
+    }
+  },
+  "ASTAR": {
+    "address": "",
+    "coinGeckoId": "astar",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1mhmln627samtkuwe459ylq763r4n7n69gxxc9x",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Astar",
+      "symbol": "",
+      "decimals": 18,
       "logo": ""
     }
   }
