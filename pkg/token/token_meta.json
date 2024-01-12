@@ -1375,5 +1375,77 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "AUTISM": {
+    "address": "",
+    "coinGeckoId": "autism",
+    "denom": "factory/inj14lf8xm6fcvlggpa7guxzjqwjmtr24gnvf56hvz/autism",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Autism",
+      "symbol": "AUTISM",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "MAGA": {
+    "address": "",
+    "coinGeckoId": "maga",
+    "denom": "peggy0x576e2BeD8F7b46D34016198911Cdf9886f78bea7",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Autism",
+      "symbol": "TRUMP",
+      "decimals": 9,
+      "logo": ""
+    }
+  },
+  "VATRENI": {
+    "address": "",
+    "coinGeckoId": "croatian-ff-fan-token",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1tn457ed2gg5vj2cur5khjjw63w73y3xhyhtaay",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Croatian FF Fan Token",
+      "symbol": "vatreni",
+      "decimals": 9,
+      "logo": ""
+    }
+  },
+  "OX": {
+    "address": "",
+    "coinGeckoId": "open-exchange-token",
+    "denom": "peggy0x78a0A62Fba6Fb21A83FE8a3433d44C73a4017A6f",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Open Exchange Token",
+      "symbol": "ox",
+      "decimals": 18,
+      "logo": ""
+    }
+  },
+  "LVN": {
+    "address": "",
+    "coinGeckoId": "levana-protocol",
+    "denom": "ibc/4971C5E4786D5995EC7EF894FCFA9CF2E127E95D5D53A982F6A062F3F410EDB8",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Levana protocol",
+      "symbol": "levana",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "FLUX": {
+    "address": "0x81994b9607e06ab3d5cF3AffF9a67374f05F27d7",
+    "coinGeckoId": "flux-usdt",
+    "denom": "peggy0x81994b9607e06ab3d5cF3AffF9a67374f05F27d7",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Flux USDT",
+      "symbol": "fusd",
+      "decimals": 8,
+      "logo": ""
+    }
   }
 }
