@@ -1447,5 +1447,18 @@
       "decimals": 8,
       "logo": ""
     }
+  },
+  "MOONAPP": {
+    "address": "0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439",
+    "coinGeckoId": "",
+    "denom": "peggy0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439",
+    "metaSource": "Custom",
+    "injectiveMarkets": ["0x05288e393771f09c923d1189e4265b7c2646b6699f08971fd2adf0bfd4b1ce7a"],
+    "meta": {
+      "name": "Moon App",
+      "symbol": "APP",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
