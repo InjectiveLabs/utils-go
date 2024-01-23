@@ -1460,5 +1460,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "GYEN": {
+    "address": "0xC08512927D12348F6620a698105e1BAac6EcD911",
+    "coinGeckoId": "gyen",
+    "denom": "peggy0xC08512927D12348F6620a698105e1BAac6EcD911",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "GMO JPY",
+      "symbol": "GYEN",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
