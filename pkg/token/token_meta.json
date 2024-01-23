@@ -1472,5 +1472,18 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "GINGER": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj172ccd0gddgz203e4pf86ype7zjx573tn8g0df9/GINGER",
+    "injectiveMarkets": ["0xb6c24e9a586a50062f2fac059ddd79f8b0cf1c101e263f4b2c7484b0e20d2899"],
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Ginger",
+      "symbol": "GINGER",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
