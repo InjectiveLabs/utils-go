@@ -1509,5 +1509,18 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "MT": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/mitotest2",
+    "metaSource": "Custom",
+    "injectiveMarkets": ["0xed865fd44f1bc9d46d978db415ed00444fac4f6aef7e09e2d0235f8d140b219f"],
+    "meta": {
+      "name": "MT",
+      "symbol": "MT",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
