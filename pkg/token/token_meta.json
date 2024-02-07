@@ -1485,5 +1485,29 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "DOJO": {
+    "address": "",
+    "coinGeckoId": "dojo-token",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1zdj9kqnknztl2xclm5ssv25yre09f8908d4923",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "DOJO",
+      "symbol": "DOJO",
+      "decimals": 18,
+      "logo": ""
+    }
+  },
+  "ANDR": {
+    "address": "",
+    "coinGeckoId": "andromeda-2",
+    "denom": "ibc/61FA42C3F0B0F8768ED2CE380EDD3BE0E4CB7E67688F81F70DE9ECF5F8684E1E",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "ANDR",
+      "symbol": "ANDR",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
