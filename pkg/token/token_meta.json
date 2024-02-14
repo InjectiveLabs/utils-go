@@ -1535,5 +1535,29 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "USDCdummy1": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "peggy0xf9152067989BDc8783fF586624124C05A529A5D1",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "USDCdummy1",
+      "symbol": "USDCdummy1",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "FRCOINdummy1": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1d3jc5pr6nsf9twyzjh9w5nj7nn235ysllwtpq7/frcoin",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "FRCOINdummy1",
+      "symbol": "FRCOINdummy1",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
