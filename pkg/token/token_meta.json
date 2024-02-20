@@ -652,7 +652,7 @@
       "decimals": 6,
       "logo": ""
     }
-  }, 
+  },
   "XBX": {
     "address": "0x080b12e80c9b45e97c23b6ad10a16b3e2a123949",
     "coinGeckoId": "x-blox",
@@ -1234,7 +1234,9 @@
     "coinGeckoId": "",
     "denom": "factory/inj1xy3kvlr4q4wdd6lrelsrw2fk2ged0any44hhwq/KIRA",
     "metaSource": "Custom",
-    "injectiveMarkets": ["0x2d3b8d8833dda54a717adea9119134556848105fd6028e9a4a526e4e5a122a57"],
+    "injectiveMarkets": [
+      "0x2d3b8d8833dda54a717adea9119134556848105fd6028e9a4a526e4e5a122a57"
+    ],
     "meta": {
       "name": "KIRA",
       "symbol": "KIRA",
@@ -1247,7 +1249,9 @@
     "coinGeckoId": "",
     "denom": "factory/inj1vwn4x08hlactxj3y3kuqddafs2hhqzapruwt87/katana",
     "metaSource": "Custom",
-    "injectiveMarkets": ["0x4bb3426a2d7ba80c244ef7eecfd7c4fd177d78e63ff40ba6235b1ae471e23cdb"],
+    "injectiveMarkets": [
+      "0x4bb3426a2d7ba80c244ef7eecfd7c4fd177d78e63ff40ba6235b1ae471e23cdb"
+    ],
     "meta": {
       "name": "KATANA",
       "symbol": "KATANA",
@@ -1260,7 +1264,9 @@
     "coinGeckoId": "",
     "denom": "factory/inj1xtel2knkt8hmc9dnzpjz6kdmacgcfmlv5f308w/ninja",
     "metaSource": "Custom",
-    "injectiveMarkets": ["0xdf9317eac1739a23bc385e264afde5d480c0b3d2322660b5efd206071d4e70b7"],
+    "injectiveMarkets": [
+      "0xdf9317eac1739a23bc385e264afde5d480c0b3d2322660b5efd206071d4e70b7"
+    ],
     "meta": {
       "name": "NINJA",
       "symbol": "NINJA",
@@ -1453,7 +1459,9 @@
     "coinGeckoId": "",
     "denom": "peggy0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439",
     "metaSource": "Custom",
-    "injectiveMarkets": ["0x05288e393771f09c923d1189e4265b7c2646b6699f08971fd2adf0bfd4b1ce7a"],
+    "injectiveMarkets": [
+      "0x05288e393771f09c923d1189e4265b7c2646b6699f08971fd2adf0bfd4b1ce7a"
+    ],
     "meta": {
       "name": "Moon App",
       "symbol": "APP",
@@ -1477,7 +1485,9 @@
     "address": "",
     "coinGeckoId": "",
     "denom": "factory/inj172ccd0gddgz203e4pf86ype7zjx573tn8g0df9/GINGER",
-    "injectiveMarkets": ["0xb6c24e9a586a50062f2fac059ddd79f8b0cf1c101e263f4b2c7484b0e20d2899"],
+    "injectiveMarkets": [
+      "0xb6c24e9a586a50062f2fac059ddd79f8b0cf1c101e263f4b2c7484b0e20d2899"
+    ],
     "metaSource": "Custom",
     "meta": {
       "name": "Ginger",
@@ -1515,7 +1525,9 @@
     "coinGeckoId": "",
     "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/mitotest2",
     "metaSource": "Custom",
-    "injectiveMarkets": ["0xed865fd44f1bc9d46d978db415ed00444fac4f6aef7e09e2d0235f8d140b219f"],
+    "injectiveMarkets": [
+      "0xed865fd44f1bc9d46d978db415ed00444fac4f6aef7e09e2d0235f8d140b219f"
+    ],
     "meta": {
       "name": "MT",
       "symbol": "MT",
@@ -1527,7 +1539,9 @@
     "address": "",
     "coinGeckoId": "",
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj18luqttqyckgpddndh8hvaq25d5nfwjc78m56lc",
-    "injectiveMarkets": ["0x1b1e062b3306f26ae3af3c354a10c1cf38b00dcb42917f038ba3fc14978b1dd8"],
+    "injectiveMarkets": [
+      "0x1b1e062b3306f26ae3af3c354a10c1cf38b00dcb42917f038ba3fc14978b1dd8"
+    ],
     "metaSource": "Custom",
     "meta": {
       "name": "hINJ",
@@ -1556,6 +1570,36 @@
     "meta": {
       "name": "FRCOINdummy1",
       "symbol": "FRCOINdummy1",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "PHUC": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1995xnrrtnmtdgjmx0g937vf28dwefhkhy6gy5e/phuc",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0x697457537bc2af5ff652bc0616fe23537437a570d0e4d91566f03af279e095d5"
+    ],
+    "meta": {
+      "name": "PHUC",
+      "symbol": "PHUC",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "QUNT": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj127l5a2wmkyvucxdlupqyac3y0v6wqfhq03ka64/qunt",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0x42edf70cc37e155e9b9f178e04e18999bc8c404bd7b638cc4cbf41da8ef45a21"
+    ],
+    "meta": {
+      "name": "Quant",
+      "symbol": "QUNT",
       "decimals": 6,
       "logo": ""
     }
