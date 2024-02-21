@@ -1550,6 +1550,21 @@
       "logo": ""
     }
   },
+  "TestnetHINJ": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1hdvy6tl89llqy3ze8lv6mz5qh66sx9enn0jxg6/inj1mz7mfhgx8tuvjqut03qdujrkzwlx9xhcj6yldc",
+    "injectiveMarkets": [
+      "0x2d7f47811527bd721ce2e4e0ff27b0f3a281f65abcd41758baf157c8ddfcd910"
+    ],
+    "metaSource": "Custom",
+    "meta": {
+      "name": "hINJ",
+      "symbol": "hINJ",
+      "decimals": 18,
+      "logo": ""
+    }
+  },
   "USDCdummy1": {
     "address": "",
     "coinGeckoId": "",
@@ -1600,6 +1615,21 @@
     "meta": {
       "name": "Quant",
       "symbol": "QUNT",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "HDRO": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1pk7jhvjj2lufcghmvr7gl49dzwkk3xj0uqkwfk/hdro",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0xd8e9ea042ac67990134d8e024a251809b1b76c5f7df49f511858e040a285efca"
+    ],
+    "meta": {
+      "name": "HDRO",
+      "symbol": "HDRO",
       "decimals": 6,
       "logo": ""
     }
