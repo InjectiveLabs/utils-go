@@ -1619,7 +1619,7 @@
       "logo": ""
     }
   },
-  "HDRO": {
+  "TestnetHDRO": {
     "address": "",
     "coinGeckoId": "",
     "denom": "factory/inj1pk7jhvjj2lufcghmvr7gl49dzwkk3xj0uqkwfk/hdro",
@@ -1630,6 +1630,66 @@
     "meta": {
       "name": "HDRO",
       "symbol": "HDRO",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "HDRO": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1etz0laas6h7vemg3qtd67jpr6lh8v7xz7gfzqw/hdro",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0xc8fafa1fcab27e16da20e98b4dc9dda45320418c27db80663b21edac72f3b597"
+    ],
+    "meta": {
+      "name": "HDRO",
+      "symbol": "HDRO",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "TEST1": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj17gkuet8f6pssxd8nycm3qr9d9y699rupv6397z/test1",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0xe4b31c0112c89e0963b2db6884b416c17101a899e0ce6dc9f5dde79e6a01b52b"
+    ],
+    "meta": {
+      "name": "TEST1",
+      "symbol": "TEST1",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "TEST2": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1gvhyp8un5l9jpxpd90rdtj3ejd6qser2s2jxtz/test2",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0x21d4ee074f37f2a310929425e58f69850fca9f734d292bfc5ee48d3c28ea1c09"
+    ],
+    "meta": {
+      "name": "TEST2",
+      "symbol": "TEST2",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
+  "TEST3": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj1gvhyp8un5l9jpxpd90rdtj3ejd6qser2s2jxtz/test3",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0x4f31471d844fc99134c7cadd47046cc08656a70dc521098a835df8cd0f433641"
+    ],
+    "meta": {
+      "name": "TEST3",
+      "symbol": "TEST3",
       "decimals": 6,
       "logo": ""
     }
