@@ -1193,6 +1193,18 @@
       "logo": ""
     }
   },
+  "PYTH2": {
+    "address": "",
+    "coinGeckoId": "pyth-network",
+    "denom": "ibc/F3330C1B8BD1886FE9509B94C7B5398B892EA41420D2BC0B7C6A53CB8ED761D6",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Pyth Network",
+      "symbol": "PYTH",
+      "decimals": 6,
+      "logo": ""
+    }
+  },
   "USDY": {
     "address": "0x96F6eF951840721AdBF46Ac996b59E0235CB985C",
     "coinGeckoId": "ondo-us-dollar-yield",
