@@ -1243,7 +1243,7 @@
   },
   "KIRA": {
     "address": "",
-    "coinGeckoId": "",
+    "coinGeckoId": "kira-the-injective-cat",
     "denom": "factory/inj1xy3kvlr4q4wdd6lrelsrw2fk2ged0any44hhwq/KIRA",
     "metaSource": "Custom",
     "injectiveMarkets": [
@@ -1258,7 +1258,7 @@
   },
   "KATANA": {
     "address": "",
-    "coinGeckoId": "",
+    "coinGeckoId": "dogwifkatana",
     "denom": "factory/inj1vwn4x08hlactxj3y3kuqddafs2hhqzapruwt87/katana",
     "metaSource": "Custom",
     "injectiveMarkets": [
@@ -1468,7 +1468,7 @@
   },
   "MOONAPP": {
     "address": "0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439",
-    "coinGeckoId": "",
+    "coinGeckoId": "moon-app",
     "denom": "peggy0xC5d27F27F08D1FD1E3EbBAa50b3442e6c0D50439",
     "metaSource": "Custom",
     "injectiveMarkets": [
@@ -1495,7 +1495,7 @@
   },
   "GINGER": {
     "address": "",
-    "coinGeckoId": "",
+    "coinGeckoId": "ginger",
     "denom": "factory/inj172ccd0gddgz203e4pf86ype7zjx573tn8g0df9/GINGER",
     "injectiveMarkets": [
       "0xb6c24e9a586a50062f2fac059ddd79f8b0cf1c101e263f4b2c7484b0e20d2899"
@@ -1705,6 +1705,18 @@
       "name": "TEST3",
       "symbol": "TEST3",
       "decimals": 6,
+      "logo": ""
+    }
+  },
+  "USDE": {
+    "address": "",
+    "coinGeckoId": "ethena-usde",
+    "denom": "peggy0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "ethena-usde",
+      "symbol": "USDE",
+      "decimals": 18,
       "logo": ""
     }
   }
