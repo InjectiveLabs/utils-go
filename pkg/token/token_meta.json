@@ -797,10 +797,22 @@
       "logo": "https://static.alchemyapi.io/images/assets/3408.png"
     }
   },
-  "SOL": {
+  "SOLlegacy": {
     "address": "",
     "coinGeckoId": "solana",
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1sthrn5ep8ls5vzz8f9gp89khhmedahhdkqa8z3",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Wormhole Wrapped SOL",
+      "symbol": "SOL",
+      "decimals": 8,
+      "logo": "https://assets.coingecko.com/coins/images/4128/small/solana.png?1640133422"
+    }
+  },
+  "SOL": {
+    "address": "",
+    "coinGeckoId": "solana",
+    "denom": "ibc/A8B0B746B5AB736C2D8577259B510D56B8AF598008F68041E3D634BCDE72BE97",
     "metaSource": "Custom",
     "meta": {
       "name": "Wormhole Wrapped SOL",
@@ -857,10 +869,22 @@
       "logo": "https://assets.coingecko.com/coins/images/13573/large/Lido_DAO.png?1609873644"
     }
   },
-  "ARB": {
+  "ARBLegacy": {
     "address": "",
     "coinGeckoId": "arbitrum",
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1d5vz0uzwlpfvgwrwulxg6syy82axa58y4fuszd",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "decimals": 8,
+      "logo": "https://assets.coingecko.com/coins/images/16547/large/arbitrium.png?1624418103"
+    }
+  },
+  "ARB": {
+    "address": "",
+    "coinGeckoId": "arbitrum",
+    "denom": "ibc/8CF0E4184CA3105798EDB18CAA3981ADB16A9951FE9B05C6D830C746202747E1",
     "metaSource": "Custom",
     "meta": {
       "name": "Arbitrum",
@@ -893,10 +917,22 @@
       "logo": "https://assets.coingecko.com/coins/images/24383/small/apecoin.jpg?1647476455"
     }
   },
-  "WMATIC": {
+  "WMATIClegacy": {
     "address": "",
     "coinGeckoId": "wmatic",
     "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1dxv423h8ygzgxmxnvrf33ws3k94aedfdevxd8h",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Wrapped Matic",
+      "symbol": "WMATIC",
+      "decimals": 8,
+      "logo": "https://assets.coingecko.com/coins/images/14073/large/matic.png?1628852392"
+    }
+  },
+  "WMATIC": {
+    "address": "",
+    "coinGeckoId": "wmatic",
+    "denom": "ibc/4DEFEB42BAAB2788723759D95B7550BCE460855563ED977036248F5B94C842FC",
     "metaSource": "Custom",
     "meta": {
       "name": "Wrapped Matic",
