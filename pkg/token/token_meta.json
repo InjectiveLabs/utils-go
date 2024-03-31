@@ -1755,5 +1755,20 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "NONJA": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj14ejqjyq8um4p3xfqj74yld5waqljf88f9eneuk/inj1fu5u29slsg2xtsj7v5la22vl4mr4ywl7wlqeck",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0x85ccdb2b6022b0586da19a2de0a11ce9876621630778e28a5d534464cbfff238"
+    ],
+    "meta": {
+      "name": "nonja",
+      "symbol": "NONJA",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
