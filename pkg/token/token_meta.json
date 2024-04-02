@@ -1782,5 +1782,20 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "W": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "ibc/F16F0F685BEF7BC6A145F16CBE78C6EC8C7C3A5F3066A98A9E57DCEA0903E537",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0x35a83ec8948babe4c1b8fbbf1d93f61c754fedd3af4d222fe11ce2a294cd74fb"
+    ],
+    "meta": {
+      "name": "Wormhole",
+      "symbol": "W",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
