@@ -1770,5 +1770,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "ENA": {
+    "address": "",
+    "coinGeckoId": "ethena",
+    "denom": "peggy0x57e114B691Db790C35207b2e685D4A43181e6061",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "ethena",
+      "symbol": "ENA",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
