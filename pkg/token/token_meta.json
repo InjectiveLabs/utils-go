@@ -1812,5 +1812,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "BONUS": {
+    "address": "",
+    "coinGeckoId": "bonusblock",
+    "denom": "ibc/DCF43489B9438BB7E462F1A1AD38C7898DF7F49649F9CC8FEBFC533A1192F3EF",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "BonusBlock",
+      "symbol": "BONUS",
+      "decimals": 8,
+      "logo": ""
+    }
   }
 }
