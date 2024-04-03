@@ -1797,5 +1797,20 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "SUSDE": {
+    "address": "",
+    "coinGeckoId": "ethena-staked-usde",
+    "denom": "peggy0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0x1f5d69fc3d063e2a130c29943a0c83c3e79c2ba897fe876fcd82c51ab2ea61de"
+    ],
+    "meta": {
+      "name": "sUSDe",
+      "symbol": "sUSDe",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
