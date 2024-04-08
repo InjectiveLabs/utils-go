@@ -8,21 +8,30 @@ on:
     - master
 
 jobs:
-  run-unittests:
-    name: Run unit tests
+  validate-token-meta:
+    name: Validate token meta json
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        path: main
     - name: Checkout tokens-file-validator
       uses: actions/checkout@v4
       with:
-        repository: github.com/InjectiveLabs/token-meta-validator
+        repository: InjectiveLabs/token-meta-validator
+        ref: master
+        token: ${{ secrets.GH_PAT }}
+        path: validator
     - name: Setup Go ^1.21
       uses: actions/setup-go@v4
       with:
         go-version: '^1.21.6'
-    - name: Install dependencies
-      run: go get .
-    - name: Build
-      run: go build -v ./... -o validate
+    - name: Install and build
+      run: |
+        cd validator
+        go install .
     - name: Validate
-      run: validate ./pkg/token/token_meta.json
+      run: |
+        cd main
+        token-meta-validator --token-file=./pkg/token/token_meta.json
