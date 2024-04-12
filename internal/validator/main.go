@@ -16,36 +16,25 @@ import (
 	"time"
 )
 
-var (
-	tokenFile *string
-)
-
-var (
-	// Invalid markets for tests that will be ignored
-	TestsMarkets = map[string]struct{}{
-		"0xed865fd44f1bc9d46d978db415ed00444fac4f6aef7e09e2d0235f8d140b219f": {},
-	}
-)
-
-func init() {
-	tokenFile = flag.String("token-file", "token.json", "path to token file")
-}
-
 type TokenFile map[string]*token.Token
 
 func main() {
-
+	tokenFile := flag.String("token-file", "token.json", "path to token file")
+	marketSkipList := flag.String("market-skip-list", "", "comma separated list of markets to skip")
 	flag.Parse()
+
+	skipMarkets := map[string]struct{}{}
+	for _, m := range strings.Split(*marketSkipList, ",") {
+		skipMarkets[m] = struct{}{}
+	}
 	// read token file
 	tokens, err := os.ReadFile(*tokenFile)
 	if err != nil {
-		log.Errorf("cannot read token file: %s", err)
-		os.Exit(1)
+		log.Fatalf("cannot read token file: %s", err)
 	}
 	isValid := json.Valid(tokens)
 	if !isValid {
-		log.Errorf("invalid json: %s", tokens)
-		os.Exit(1)
+		log.Fatalf("invalid json: %s", tokens)
 	}
 
 	var metadata = TokenFile{}
@@ -54,13 +43,11 @@ func main() {
 	decoder.DisallowUnknownFields()
 	err = decoder.Decode(&TokenFile{})
 	if err != nil {
-		log.Errorf("cannot decode token file: %s", err)
-		os.Exit(1)
+		log.Fatalf("cannot decode token file: %s", err)
 	}
 
 	if err := json.Unmarshal(tokens, &metadata); err != nil {
-		fmt.Println("cannot unmarshal token file:", err)
-		os.Exit(1)
+		log.Fatalf("cannot unmarshal token file: %s", err)
 	}
 
 	log.Infof("token file is semantically valid")
@@ -97,19 +84,17 @@ func main() {
 		}
 		if m.Denom != "" {
 			for _, market := range m.InjectiveMarkets {
-				if _, ok := TestsMarkets[market]; ok {
+				if _, ok := skipMarkets[market]; ok {
 					continue
 				}
-				_, err := finder.findMarketOnAllNetwork(context.TODO(), market)
+				_, err = finder.findMarketOnAllNetwork(context.TODO(), market)
 				if err != nil {
-					log.Fatalf("%s: market %s not found: %s", key, market, err)
-				} else {
-					log.Infof("%s: market %s found", key, market)
+					log.Fatalf("%s: market %s not found: %s. If this is expected is possible to whitelist this market using `--market-skip-list` flag.", key, market, err)
 				}
+				log.Infof("%s: market %s found", key, market)
 			}
 		}
 	}
-
 	log.Infof("token file content is valid")
 }
 
@@ -120,11 +105,11 @@ type MarketFinder struct {
 func (f MarketFinder) findMarketOnAllNetwork(ctx context.Context, market string) (string, error) {
 	ctx, cancel := context.WithTimeout(context.Background(), 1000*time.Second)
 	defer cancel()
-
+	var err error
 	for key, client := range f.exchangeClient {
 		spotMarketInfo := injective_spot_exchange_rpcpb.MarketResponse{}
 		derivativeMarketInfo := injective_derivative_exchange_rpcpb.MarketResponse{}
-		spotMarketInfo, err := client.GetSpotMarket(ctx, market)
+		spotMarketInfo, err = client.GetSpotMarket(ctx, market)
 		if err != nil {
 			derivativeMarketInfo, err = client.GetDerivativeMarket(ctx, market)
 			if err != nil &&
@@ -139,6 +124,8 @@ func (f MarketFinder) findMarketOnAllNetwork(ctx context.Context, market string)
 		}
 		return spotMarketInfo.Market.Ticker, nil
 	}
-
+	if err != nil {
+		return "", fmt.Errorf("market %s not found: %s", market, err)
+	}
 	return "", fmt.Errorf("market %s not found", market)
 }
