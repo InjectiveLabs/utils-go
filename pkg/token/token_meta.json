@@ -1839,5 +1839,20 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "XIII234": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj18flmwwaxxqj8m8l5zl8xhjrnah98fcjp3gcy3e/XIII234",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0x315e5cd5ee24b3a1e1396679885b5e42bbe18045105d1662c6618430a131d117"
+    ],
+    "meta": {
+      "name": "XIII",
+      "symbol": "XIII",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
