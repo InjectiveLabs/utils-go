@@ -281,7 +281,7 @@
     "meta": {
       "name": "Injective Protocol",
       "symbol": "INJ",
-      "decimals": 18,
+      "decimals": 20,
       "logo": "https://static.alchemyapi.io/images/assets/7226.png"
     }
   },
