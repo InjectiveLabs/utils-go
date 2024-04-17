@@ -1839,5 +1839,17 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "OMNI": {
+    "address": "",
+    "coinGeckoId": "omni-network",
+    "denom": "peggy0x36E66fbBce51e4cD5bd3C62B637Eb411b18949D4",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Omni Network",
+      "symbol": "OMNI",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
