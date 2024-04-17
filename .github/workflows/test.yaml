@@ -1,0 +1,27 @@
+name: CI
+defaults:
+  run:
+    shell: bash -ieo pipefail {0}
+on:
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  validate-token-meta:
+    name: Validate token meta json
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Setup Go ^1.20
+      uses: actions/setup-go@v4
+      with:
+        go-version: '^1.20.5'
+    - name: Install and build
+      run: |
+        cd internal/validator
+        go install .
+    - name: Validate
+      run: |
+        validator --token-file=./pkg/token/token_meta.json --market-skip-list=0xed865fd44f1bc9d46d978db415ed00444fac4f6aef7e09e2d0235f8d140b219f
