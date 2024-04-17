@@ -17,6 +17,7 @@ type Token struct {
 	Meta             *Meta      `json:"meta"`
 	LastAccessTime   time.Time  `json:"-"`
 	InjectiveMarkets []string   `json:"injectiveMarkets"`
+	StartPrice       float64    `json:"start_price"`
 }
 
 // Meta this struct is the same as the metadata in the resp of Alchemy
