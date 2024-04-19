@@ -1857,6 +1857,9 @@
     "coinGeckoId": "",
     "denom": "factory/inj16eckaf75gcu9uxdglyvmh63k9t0l7chd0qmu85/black",
     "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0xd166688623206f9931307285678e9ff17cecd80a27d7b781dd88cecfba3b1839"
+    ],
     "meta": {
       "name": "Black Panther",
       "symbol": "BLACK",
