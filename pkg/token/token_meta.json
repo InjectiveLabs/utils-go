@@ -1851,5 +1851,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "BLACK": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "factory/inj16eckaf75gcu9uxdglyvmh63k9t0l7chd0qmu85/black",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Black Panther",
+      "symbol": "BLACK",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
