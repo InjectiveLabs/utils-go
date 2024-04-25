@@ -1866,5 +1866,20 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "ASG": {
+    "address": "",
+    "coinGeckoId": "",
+    "denom": "ibc/2D40732D27E22D27A2AB79F077F487F27B6F13DB6293040097A71A52FB8AD021",
+    "metaSource": "Custom",
+    "injectiveMarkets": [
+      "0xbd370d025c3693e8d658b44afe8434fa61cbc94178d0871bffd49e25773ef879"
+    ],
+    "meta": {
+      "name": "Ancient Summoners Gem",
+      "symbol": "ASG",
+      "decimals": 8,
+      "logo": ""
+    }
   }
 }
