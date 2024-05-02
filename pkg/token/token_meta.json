@@ -1881,5 +1881,17 @@
       "decimals": 8,
       "logo": ""
     }
+  },
+  "SAGA": {
+    "address": "",
+    "coinGeckoId": "saga-2",
+    "denom": "ibc/AF921F0874131B56897A11AA3F33D5B29CD9C147A1D7C37FE8D918CB420956B2",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Saga",
+      "symbol": "SAGA",
+      "decimals": 6,
+      "logo": ""
+    }
   }
 }
