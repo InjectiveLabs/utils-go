@@ -1893,5 +1893,17 @@
       "decimals": 6,
       "logo": ""
     }
+  },
+  "ezETH": {
+    "address": "",
+    "coinGeckoId": "renzo-restaked-eth",
+    "denom": "peggy0xbf5495Efe5DB9ce00f80364C8B423567e58d2110",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Renzo Restaked ETH",
+      "symbol": "ezETH",
+      "decimals": 18,
+      "logo": ""
+    }
   }
 }
