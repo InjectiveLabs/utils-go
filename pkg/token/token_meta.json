@@ -1905,5 +1905,17 @@
       "decimals": 18,
       "logo": ""
     }
+  },
+  "WUSDM": {
+    "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+    "coinGeckoId": "wrapped-usdm",
+    "denom": "peggy0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Wrapped USDM",
+      "symbol": "wUSDM",
+      "decimals": 18,
+      "logo": "https://imagedelivery.net/DYKOWp0iCc0sIkF-2e4dNw/c7333dd4-1983-4d2c-ce65-d88c3b427800/public"
+    }
   }
 }
