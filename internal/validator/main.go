@@ -7,8 +7,6 @@ import (
 	"fmt"
 	"github.com/InjectiveLabs/sdk-go/client/common"
 	"github.com/InjectiveLabs/sdk-go/client/exchange"
-	injective_derivative_exchange_rpcpb "github.com/InjectiveLabs/sdk-go/exchange/derivative_exchange_rpc/pb"
-	injective_spot_exchange_rpcpb "github.com/InjectiveLabs/sdk-go/exchange/spot_exchange_rpc/pb"
 	"github.com/InjectiveLabs/utils-go/pkg/token"
 	log "github.com/sirupsen/logrus"
 	"os"
@@ -107,11 +105,9 @@ func (f MarketFinder) findMarketOnAllNetwork(ctx context.Context, market string)
 	defer cancel()
 	var err error
 	for key, client := range f.exchangeClient {
-		spotMarketInfo := injective_spot_exchange_rpcpb.MarketResponse{}
-		derivativeMarketInfo := injective_derivative_exchange_rpcpb.MarketResponse{}
-		spotMarketInfo, err = client.GetSpotMarket(ctx, market)
+		spotMarketInfo, err := client.GetSpotMarket(ctx, market)
 		if err != nil {
-			derivativeMarketInfo, err = client.GetDerivativeMarket(ctx, market)
+			derivativeMarketInfo, err := client.GetDerivativeMarket(ctx, market)
 			if err != nil &&
 				!strings.Contains(err.Error(), "not found") &&
 				!strings.Contains(err.Error(), "502") {
