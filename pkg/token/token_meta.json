@@ -1929,5 +1929,41 @@
       "decimals": 18,
       "logo": "https://imagedelivery.net/DYKOWp0iCc0sIkF-2e4dNw/271f7cc4-5d76-4fa0-436d-00c15b13d500/public"
     }
+  },
+  "GIGA": {
+    "address": "",
+    "coinGeckoId": "gigachad-2",
+    "denom": "ibc/36C811A2253AA64B58A9B66C537B89348FE5792A8808AAA343082CBFCAA72278",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Gigachad",
+      "symbol": "GIGA",
+      "decimals": 5,
+      "logo": "https://imagedelivery.net/DYKOWp0iCc0sIkF-2e4dNw/db18e160-e670-4140-d5e1-f148a7009600/public"
+    }
+  },
+  "GME": {
+    "address": "",
+    "coinGeckoId": "gme",
+    "denom": "ibc/CAA5AB050F6C3DFE878212A37A4A6D3BEA6670F5B9786FFF7EF2D34213025272",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "GME",
+      "symbol": "GME",
+      "decimals": 8,
+      "logo": "https://imagedelivery.net/DYKOWp0iCc0sIkF-2e4dNw/b8d46bdb-640b-4d14-a9a9-612e78781800/public"
+    }
+  },
+  "SNS": {
+    "address": "",
+    "coinGeckoId": "synesis-one",
+    "denom": "ibc/4BFB3FB1903142C5A7570EE7697636436E52FDB99AB8ABE0257E178A926E2568",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "SynesisOne",
+      "symbol": "SNS",
+      "decimals": 8,
+      "logo": "https://imagedelivery.net/DYKOWp0iCc0sIkF-2e4dNw/6c8de59d-8fed-4510-7747-1cee88a67000/public"
+    }
   }
 }
