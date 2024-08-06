@@ -1917,5 +1917,17 @@
       "decimals": 18,
       "logo": "https://imagedelivery.net/DYKOWp0iCc0sIkF-2e4dNw/c7333dd4-1983-4d2c-ce65-d88c3b427800/public"
     }
+  },
+  "USDY": {
+    "address": "",
+    "coinGeckoId": "ondo-us-dollar-yield",
+    "denom": "ibc/93EAE5F9D6C14BFAC8DD1AFDBE95501055A7B22C5D8FA8C986C31D6EFADCA8A9",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Ondo US Dollar Yield",
+      "symbol": "USDY",
+      "decimals": 18,
+      "logo": "https://imagedelivery.net/DYKOWp0iCc0sIkF-2e4dNw/271f7cc4-5d76-4fa0-436d-00c15b13d500/public"
+    }
   }
 }
