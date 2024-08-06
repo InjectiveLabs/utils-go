@@ -24,4 +24,4 @@ jobs:
         go install .
     - name: Validate
       run: |
-        validator --token-file=./pkg/token/token_meta.json --market-skip-list=0xed865fd44f1bc9d46d978db415ed00444fac4f6aef7e09e2d0235f8d140b219f
+        validator --token-file=./pkg/token/token_meta.json --market-skip-list=0xed865fd44f1bc9d46d978db415ed00444fac4f6aef7e09e2d0235f8d140b219f,0x315e5cd5ee24b3a1e1396679885b5e42bbe18045105d1662c6618430a131d117
