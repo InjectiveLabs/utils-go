@@ -1965,5 +1965,17 @@
       "decimals": 8,
       "logo": "https://imagedelivery.net/DYKOWp0iCc0sIkF-2e4dNw/6c8de59d-8fed-4510-7747-1cee88a67000/public"
     }
+  },
+  "TON": {
+    "address": "",
+    "coinGeckoId": "the-open-network",
+    "denom": "peggy0x582d872a1b094fc48f5de31d3b73f2d9be47def1",
+    "metaSource": "Custom",
+    "meta": {
+      "name": "Toncoin",
+      "symbol": "TON",
+      "decimals": 9,
+      "logo": "https://assets.coingecko.com/coins/images/17980/standard/ton_symbol.png?1696517498"
+    }
   }
 }
